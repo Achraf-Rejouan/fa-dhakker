@@ -1,0 +1,572 @@
+[
+  {
+    "id": "isha-1",
+    "prayer": "isha",
+    "order": 1,
+    "title_ar": "النية والوقوف للصلاة",
+    "title_en": "Intention and Standing for Prayer",
+    "description_ar": "انو في قلبك صلاة العشاء أربع ركعات فرض لله تعالى، وقف متجهاً نحو القبلة. صلاة العشاء 4 ركعات جهرية في الركعتين الأوليين",
+    "description_en": "Intend in your heart to pray Isha prayer, 4 rakaas as an obligation to Allah. Stand facing the Qibla. Isha prayer is 4 rakaas with the first two recited aloud (Jahr)",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "quran",
+        "ref": "البقرة:144",
+        "text_ar": "فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ وَحَيْثُ مَا كُنتُمْ فَوَلُّوا وُجُوهَكُمْ شَطْرَهُ",
+        "text_en": "Turn your face toward the Sacred Mosque, and wherever you are, turn your faces toward it"
+      },
+      {
+        "kind": "quran",
+        "ref": "الإسراء:78",
+        "text_ar": "أَقِمِ الصَّلَاةَ لِدُلُوكِ الشَّمْسِ إِلَىٰ غَسَقِ اللَّيْلِ وَقُرْآنَ الْفَجْرِ ۖ إِنَّ قُرْآنَ الْفَجْرِ كَانَ مَشْهُودًا",
+        "text_en": "Establish prayer at the decline of the sun until the darkness of the night and the dawn recitation. Indeed, the dawn recitation is ever witnessed"
+      },
+      {
+        "kind": "hadith",
+        "ref": "البخاري 1",
+        "text_ar": "إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى",
+        "text_en": "Actions are but by intention and every man shall have only that which he intended"
+      }
+    ]
+  },
+  {
+    "id": "isha-2",
+    "prayer": "isha",
+    "order": 2,
+    "title_ar": "تكبيرة الإحرام",
+    "title_en": "Opening Takbir (Takbirat al-Ihram)",
+    "description_ar": "ارفع يديك إلى مستوى الأذنين أو المنكبين وقل: الله أكبر. هذه تكبيرة الإحرام التي تدخل بها في الصلاة",
+    "description_en": "Raise your hands to ear level or shoulder level and say: Allahu Akbar. This is the opening takbir that enters you into prayer",
+    "svgId": "takbir",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 733",
+        "text_ar": "كان رسول الله صلى الله عليه وسلم إذا قام إلى الصلاة رفع يديه حتى يحاذي بهما منكبيه",
+        "text_en": "When the Prophet (peace be upon him) stood for prayer, he would raise his hands until they were level with his shoulders"
+      },
+      {
+        "kind": "hadith",
+        "ref": "أبو داود 748",
+        "text_ar": "تحريمها التكبير وتحليلها التسليم",
+        "text_en": "Prayer is entered by takbir and exited by taslim"
+      }
+    ]
+  },
+  {
+    "id": "isha-3",
+    "prayer": "isha",
+    "order": 3,
+    "title_ar": "وضع اليدين والاستعاذة",
+    "title_en": "Placing Hands and Seeking Refuge",
+    "description_ar": "ضع يدك اليمنى على اليسرى تحت الصدر أو على الصدر، ثم قل سراً: أعوذ بالله من الشيطان الرجيم",
+    "description_en": "Place your right hand over your left hand below the chest or on the chest, then say silently: A'udhu billahi min ash-shaytani'r-rajim",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "أبو داود 759",
+        "text_ar": "كان رسول الله صلى الله عليه وسلم يضع يده اليمنى على اليسرى",
+        "text_en": "The Prophet (peace be upon him) used to place his right hand over his left hand"
+      },
+      {
+        "kind": "quran",
+        "ref": "النحل:98",
+        "text_ar": "فَإِذَا قَرَأْتَ الْقُرْآنَ فَاسْتَعِذْ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+        "text_en": "When you recite the Quran, seek refuge with Allah from Satan, the accursed"
+      }
+    ]
+  },
+  {
+    "id": "isha-4",
+    "prayer": "isha",
+    "order": 4,
+    "title_ar": "البسملة وقراءة الفاتحة - الركعة الأولى",
+    "title_en": "Basmala and Reciting Al-Fatiha - First Rakaa",
+    "description_ar": "اقرأ بصوت مسموع: بسم الله الرحمن الرحيم، ثم اقرأ سورة الفاتحة كاملة. في صلاة العشاء تُقرأ الركعتان الأوليان جهراً",
+    "description_en": "Recite aloud: Bismillahi'r-rahmani'r-rahim, then recite Surah Al-Fatiha completely. In Isha prayer, the first two rakaas are recited aloud (Jahr)",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 756",
+        "text_ar": "لا صلاة لمن لم يقرأ بفاتحة الكتاب",
+        "text_en": "There is no prayer for one who does not recite the opening of the Book (Al-Fatiha)"
+      },
+      {
+        "kind": "hadith",
+        "ref": "مسلم 399",
+        "text_ar": "كان النبي صلى الله عليه وسلم يجهر بالقراءة في العشاء",
+        "text_en": "The Prophet (peace be upon him) used to recite aloud in Isha prayer"
+      }
+    ]
+  },
+  {
+    "id": "isha-5",
+    "prayer": "isha",
+    "order": 5,
+    "title_ar": "قراءة سورة أو آيات - الركعة الأولى",
+    "title_en": "Reciting a Surah or Verses - First Rakaa",
+    "description_ar": "اقرأ بصوت مسموع سورة من القرآن أو آيات. يُستحب في العشاء قراءة السور المتوسطة مثل الأعلى أو الغاشية",
+    "description_en": "Recite aloud a surah from the Quran or verses. It is recommended in Isha to recite medium surahs like Al-A'la or Al-Ghashiyah",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 759",
+        "text_ar": "كان يقرأ في العشاء بالسماء والطارق والسماء ذات البروج",
+        "text_en": "He used to recite in Isha As-Sama wa't-Tariq and As-Sama dhat al-Buruj"
+      },
+      {
+        "kind": "hadith",
+        "ref": "مسلم 461",
+        "text_ar": "كان يقرأ في العشاء بوسط المفصل",
+        "text_en": "He used to recite in Isha from the middle chapters of Al-Mufassal"
+      }
+    ]
+  },
+  {
+    "id": "isha-6",
+    "prayer": "isha",
+    "order": 6,
+    "title_ar": "تكبيرة الركوع",
+    "title_en": "Takbir for Ruku",
+    "description_ar": "ارفع يديك كما فعلت في تكبيرة الإحرام وقل: الله أكبر، ثم انحن للركوع",
+    "description_en": "Raise your hands as you did in the opening takbir and say: Allahu Akbar, then bow for ruku",
+    "svgId": "takbir",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 739",
+        "text_ar": "كان رسول الله صلى الله عليه وسلم يرفع يديه إذا كبر وإذا ركع وإذا رفع رأسه من الركوع",
+        "text_en": "The Prophet (peace be upon him) used to raise his hands when he said takbir, when he bowed, and when he raised his head from ruku"
+      }
+    ]
+  },
+  {
+    "id": "isha-7",
+    "prayer": "isha",
+    "order": 7,
+    "title_ar": "الركوع والتسبيح",
+    "title_en": "Ruku and Glorification",
+    "description_ar": "انحن بظهرك مستقيماً واجعل يديك على ركبتيك، وقل: سبحان ربي العظيم (ثلاث مرات على الأقل)",
+    "description_en": "Bow with your back straight and place hands on knees, and say: Subhana rabbiya'l-azim (at least three times)",
+    "svgId": "ruku",
+    "dalil": [
+      {
+        "kind": "quran",
+        "ref": "الحج:77",
+        "text_ar": "وَارْكَعُوا وَاسْجُدُوا وَاعْبُدُوا رَبَّكُمْ وَافْعَلُوا الْخَيْرَ",
+        "text_en": "Bow and prostrate and worship your Lord and do good"
+      },
+      {
+        "kind": "hadith",
+        "ref": "أبو داود 870",
+        "text_ar": "فأما الركوع فعظموا فيه الرب",
+        "text_en": "As for ruku, glorify your Lord in it"
+      }
+    ]
+  },
+  {
+    "id": "isha-8",
+    "prayer": "isha",
+    "order": 8,
+    "title_ar": "الرفع من الركوع",
+    "title_en": "Rising from Ruku",
+    "description_ar": "ارفع رأسك من الركوع مع رفع اليدين وقل: سمع الله لمن حمده، ثم قل وأنت واقف: ربنا ولك الحمد",
+    "description_en": "Raise your head from ruku while raising your hands and say: Sami'a Allahu liman hamidah, then while standing say: Rabbana wa laka'l-hamd",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 795",
+        "text_ar": "كان النبي صلى الله عليه وسلم إذا رفع رأسه من الركوع قال: سمع الله لمن حمده، ربنا ولك الحمد",
+        "text_en": "When the Prophet (peace be upon him) raised his head from ruku, he would say: Sami'a Allahu liman hamidah, Rabbana wa laka'l-hamd"
+      }
+    ]
+  },
+  {
+    "id": "isha-9",
+    "prayer": "isha",
+    "order": 9,
+    "title_ar": "تكبيرة السجود الأول",
+    "title_en": "Takbir for First Sujud",
+    "description_ar": "قل: الله أكبر واسجد على سبعة أعضاء: الجبهة والأنف واليدين والركبتين وأطراف القدمين",
+    "description_en": "Say: Allahu Akbar and prostrate on seven parts: forehead, nose, hands, knees, and toes",
+    "svgId": "sujud",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 812",
+        "text_ar": "أُمِرْتُ أَنْ أَسْجُدَ عَلَى سَبْعَةِ أَعْظُمٍ: عَلَى الْجَبْهَةِ وَأَشَارَ بِيَدِهِ عَلَى أَنْفِهِ وَالْيَدَيْنِ وَالرُّكْبَتَيْنِ وَأَطْرَافِ الْقَدَمَيْنِ",
+        "text_en": "I was commanded to prostrate on seven bones: the forehead (and he pointed to his nose), the hands, the knees, and the toes"
+      }
+    ]
+  },
+  {
+    "id": "isha-10",
+    "prayer": "isha",
+    "order": 10,
+    "title_ar": "التسبيح في السجود الأول",
+    "title_en": "Glorification in First Sujud",
+    "description_ar": "وأنت ساجد قل: سبحان ربي الأعلى (ثلاث مرات على الأقل). يمكنك الدعاء في السجود",
+    "description_en": "While prostrating say: Subhana rabbiya'l-a'la (at least three times). You may make du'a in sujud",
+    "svgId": "sujud",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "مسلم 484",
+        "text_ar": "وأما السجود فاجتهدوا في الدعاء فقمن أن يستجاب لكم",
+        "text_en": "As for sujud, strive in supplication, for it is most likely that you will be answered"
+      }
+    ]
+  },
+  {
+    "id": "isha-11",
+    "prayer": "isha",
+    "order": 11,
+    "title_ar": "الجلوس بين السجدتين",
+    "title_en": "Sitting Between Two Sujuds",
+    "description_ar": "ارفع رأسك من السجود مع التكبير واجلس على قدمك اليسرى وانصب اليمنى، وقل: رب اغفر لي",
+    "description_en": "Raise your head from sujud with takbir and sit on your left foot with the right foot upright, and say: Rabbi'ghfir li",
+    "svgId": "tashahhud",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "أبو داود 874",
+        "text_ar": "كان النبي صلى الله عليه وسلم يقول بين السجدتين: رب اغفر لي رب اغفر لي",
+        "text_en": "The Prophet (peace be upon him) used to say between the two sujuds: Rabbi'ghfir li, Rabbi'ghfir li"
+      }
+    ]
+  },
+  {
+    "id": "isha-12",
+    "prayer": "isha",
+    "order": 12,
+    "title_ar": "السجود الثاني",
+    "title_en": "Second Sujud",
+    "description_ar": "كبر واسجد السجدة الثانية كما فعلت في الأولى، وسبح: سبحان ربي الأعلى",
+    "description_en": "Say takbir and make the second sujud as you did the first, and glorify: Subhana rabbiya'l-a'la",
+    "svgId": "sujud",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "مسلم 484",
+        "text_ar": "ثم اسجد حتى تطمئن ساجداً",
+        "text_en": "Then prostrate until you are at rest in prostration"
+      }
+    ]
+  },
+  {
+    "id": "isha-13",
+    "prayer": "isha",
+    "order": 13,
+    "title_ar": "القيام للركعة الثانية",
+    "title_en": "Standing for Second Rakaa",
+    "description_ar": "ارفع من السجود مع التكبير وقم للركعة الثانية. هذا يكمل الركعة الأولى من صلاة العشاء",
+    "description_en": "Rise from sujud with takbir and stand for the second rakaa. This completes the first rakaa of Isha prayer",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 823",
+        "text_ar": "صلوا كما رأيتموني أصلي",
+        "text_en": "Pray as you have seen me pray"
+      }
+    ]
+  },
+  {
+    "id": "isha-14",
+    "prayer": "isha",
+    "order": 14,
+    "title_ar": "الفاتحة والسورة - الركعة الثانية",
+    "title_en": "Al-Fatiha and Surah - Second Rakaa",
+    "description_ar": "اقرأ الفاتحة جهراً في الركعة الثانية، ثم اقرأ سورة أو آيات من القرآن بصوت مسموع",
+    "description_en": "Recite Al-Fatiha aloud in the second rakaa, then recite a surah or verses from the Quran aloud",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "مسلم 397",
+        "text_ar": "كان يقرأ في الركعتين الأوليين من العشاء بفاتحة الكتاب وسورتين",
+        "text_en": "He used to recite in the first two rakaas of Isha Al-Fatiha and two surahs"
+      }
+    ]
+  },
+  {
+    "id": "isha-15",
+    "prayer": "isha",
+    "order": 15,
+    "title_ar": "ركوع وسجود الركعة الثانية",
+    "title_en": "Ruku and Sujud of Second Rakaa",
+    "description_ar": "اركع واسجد كما فعلت في الركعة الأولى مع نفس الأذكار والتسبيحات",
+    "description_en": "Perform ruku and sujud as you did in the first rakaa with the same dhikr and glorifications",
+    "svgId": "ruku",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "مسلم 397",
+        "text_ar": "كان النبي صلى الله عليه وسلم يصلي الركعات كما صلى الأولى",
+        "text_en": "The Prophet (peace be upon him) would pray the rakaas as he prayed the first"
+      }
+    ]
+  },
+  {
+    "id": "isha-16",
+    "prayer": "isha",
+    "order": 16,
+    "title_ar": "الجلوس للتشهد الأول",
+    "title_en": "Sitting for First Tashahhud",
+    "description_ar": "بعد السجدة الثانية من الركعة الثانية، اجلس للتشهد الأول",
+    "description_en": "After the second sujud of the second rakaa, sit for the first tashahhud",
+    "svgId": "tashahhud",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 831",
+        "text_ar": "كان النبي صلى الله عليه وسلم إذا جلس في الصلاة وضع يده اليمنى على فخذه اليمنى",
+        "text_en": "When the Prophet (peace be upon him) sat in prayer, he would place his right hand on his right thigh"
+      }
+    ]
+  },
+  {
+    "id": "isha-17",
+    "prayer": "isha",
+    "order": 17,
+    "title_ar": "قراءة التشهد الأول",
+    "title_en": "Reciting First Tashahhud",
+    "description_ar": "اقرأ التشهد الأول: التحيات لله والصلوات والطيبات، السلام عليك أيها النبي ورحمة الله وبركاته، السلام علينا وعلى عباد الله الصالحين، أشهد أن لا إله إلا الله وأشهد أن محمداً عبده ورسوله",
+    "description_en": "Recite the first tashahhud: At-tahiyyatu lillahi wa's-salawatu wa't-tayyibat, as-salamu 'alayka ayyuha'n-nabiyyu wa rahmat-ullahi wa barakatuh, as-salamu 'alayna wa 'ala 'ibad-illahi's-salihin, ashhadu an la ilaha illa Allah wa ashhadu anna Muhammadan 'abduhu wa rasuluh",
+    "svgId": "tashahhud",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 835",
+        "text_ar": "علمني رسول الله صلى الله عليه وسلم التشهد كما يعلمني السورة من القرآن",
+        "text_en": "The Messenger of Allah (peace be upon him) taught me the tashahhud as he would teach me a surah from the Quran"
+      }
+    ]
+  },
+  {
+    "id": "isha-18",
+    "prayer": "isha",
+    "order": 18,
+    "title_ar": "القيام للركعة الثالثة",
+    "title_en": "Standing for Third Rakaa",
+    "description_ar": "كبر وقم للركعة الثالثة. في الركعتين الأخيرتين تُقرأ الفاتحة فقط سراً",
+    "description_en": "Say takbir and stand for the third rakaa. In the last two rakaas, recite only Al-Fatiha silently",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "مسلم 451",
+        "text_ar": "كان يقرأ في الركعتين الأخيرتين بفاتحة الكتاب",
+        "text_en": "He used to recite in the last two rakaas only Al-Fatiha"
+      }
+    ]
+  },
+  {
+    "id": "isha-19",
+    "prayer": "isha",
+    "order": 19,
+    "title_ar": "الفاتحة فقط - الركعة الثالثة",
+    "title_en": "Al-Fatiha Only - Third Rakaa",
+    "description_ar": "اقرأ الفاتحة فقط سراً (بدون سورة إضافية) في الركعة الثالثة",
+    "description_en": "Recite only Al-Fatiha silently (without additional surah) in the third rakaa",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "أبو داود 805",
+        "text_ar": "كان يقرأ في الركعتين الأخيرتين من العشاء بأم القرآن فقط",
+        "text_en": "He used to recite in the last two rakaas of Isha only Umm al-Quran (Al-Fatiha)"
+      }
+    ]
+  },
+  {
+    "id": "isha-20",
+    "prayer": "isha",
+    "order": 20,
+    "title_ar": "ركوع وسجود الركعة الثالثة",
+    "title_en": "Ruku and Sujud of Third Rakaa",
+    "description_ar": "اركع واسجد كما فعلت في الركعات السابقة مع نفس الأذكار",
+    "description_en": "Perform ruku and sujud as you did in the previous rakaas with the same dhikr",
+    "svgId": "ruku",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "مسلم 484",
+        "text_ar": "كان يطمئن في ركوعه وسجوده",
+        "text_en": "He used to be at rest in his ruku and sujud"
+      }
+    ]
+  },
+  {
+    "id": "isha-21",
+    "prayer": "isha",
+    "order": 21,
+    "title_ar": "القيام للركعة الرابعة والأخيرة",
+    "title_en": "Standing for Fourth and Final Rakaa",
+    "description_ar": "كبر وقم للركعة الرابعة والأخيرة من صلاة العشاء",
+    "description_en": "Say takbir and stand for the fourth and final rakaa of Isha prayer",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "النسائي 980",
+        "text_ar": "صلاة العشاء أربع ركعات",
+        "text_en": "Isha prayer is four rakaas"
+      }
+    ]
+  },
+  {
+    "id": "isha-22",
+    "prayer": "isha",
+    "order": 22,
+    "title_ar": "الفاتحة فقط - الركعة الرابعة",
+    "title_en": "Al-Fatiha Only - Fourth Rakaa",
+    "description_ar": "اقرأ الفاتحة فقط سراً في الركعة الرابعة والأخيرة",
+    "description_en": "Recite only Al-Fatiha silently in the fourth and final rakaa",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "مسلم 451",
+        "text_ar": "كان يخفف في الركعتين الأخيرتين من العشاء",
+        "text_en": "He used to shorten the last two rakaas of Isha"
+      }
+    ]
+  },
+  {
+    "id": "isha-23",
+    "prayer": "isha",
+    "order": 23,
+    "title_ar": "ركوع وسجود الركعة الرابعة",
+    "title_en": "Ruku and Sujud of Fourth Rakaa",
+    "description_ar": "اركع واسجد كما فعلت في الركعات السابقة لإكمال الركعة الأخيرة",
+    "description_en": "Perform ruku and sujud as you did in the previous rakaas to complete the final rakaa",
+    "svgId": "ruku",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 823",
+        "text_ar": "صلوا كما رأيتموني أصلي",
+        "text_en": "Pray as you have seen me pray"
+      }
+    ]
+  },
+  {
+    "id": "isha-24",
+    "prayer": "isha",
+    "order": 24,
+    "title_ar": "الجلوس للتشهد الأخير",
+    "title_en": "Sitting for Final Tashahhud",
+    "description_ar": "بعد السجدة الثانية من الركعة الرابعة، اجلس للتشهد الأخير",
+    "description_en": "After the second sujud of the fourth rakaa, sit for the final tashahhud",
+    "svgId": "tashahhud",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "مسلم 402",
+        "text_ar": "كان إذا جلس في التشهد الأخير تورك",
+        "text_en": "When he sat in the final tashahhud, he would sit in the tawarruk position"
+      }
+    ]
+  },
+  {
+    "id": "isha-25",
+    "prayer": "isha",
+    "order": 25,
+    "title_ar": "قراءة التشهد الأخير",
+    "title_en": "Reciting Final Tashahhud",
+    "description_ar": "اقرأ التشهد كاملاً كما فعلت في التشهد الأول",
+    "description_en": "Recite the complete tashahhud as you did in the first tashahhud",
+    "svgId": "tashahhud",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 835",
+        "text_ar": "التحيات لله والصلوات والطيبات، السلام عليك أيها النبي ورحمة الله وبركاته، السلام علينا وعلى عباد الله الصالحين، أشهد أن لا إله إلا الله وأشهد أن محمداً عبده ورسوله",
+        "text_en": "At-tahiyyatu lillahi wa's-salawatu wa't-tayyibat, as-salamu 'alayka ayyuha'n-nabiyyu wa rahmat-ullahi wa barakatuh, as-salamu 'alayna wa 'ala 'ibad-illahi's-salihin, ashhadu an la ilaha illa Allah wa ashhadu anna Muhammadan 'abduhu wa rasuluh"
+      }
+    ]
+  },
+  {
+    "id": "isha-26",
+    "prayer": "isha",
+    "order": 26,
+    "title_ar": "الصلاة على النبي",
+    "title_en": "Salawat on the Prophet",
+    "description_ar": "اللهم صل على محمد وعلى آل محمد كما صليت على إبراهيم وعلى آل إبراهيم إنك حميد مجيد، اللهم بارك على محمد وعلى آل محمد كما باركت على إبراهيم وعلى آل إبراهيم إنك حميد مجيد",
+    "description_en": "Allahumma salli 'ala Muhammad wa 'ala ali Muhammad kama sallayta 'ala Ibrahim wa 'ala ali Ibrahim innaka hamidun majid, Allahumma barik 'ala Muhammad wa 'ala ali Muhammad kama barakta 'ala Ibrahim wa 'ala ali Ibrahim innaka hamidun majid",
+    "svgId": "tashahhud",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 3370",
+        "text_ar": "قولوا: اللهم صل على محمد وعلى آل محمد كما صليت على إبراهيم وعلى آل إبراهيم إنك حميد مجيد",
+        "text_en": "Say: Allahumma salli 'ala Muhammad wa 'ala ali Muhammad kama sallayta 'ala Ibrahim wa 'ala ali Ibrahim innaka hamidun majid"
+      }
+    ]
+  },
+  {
+    "id": "isha-27",
+    "prayer": "isha",
+    "order": 27,
+    "title_ar": "الدعاء المستحب قبل التسليم",
+    "title_en": "Recommended Du'a Before Taslim",
+    "description_ar": "يُستحب الدعاء قبل التسليم، مثل: اللهم أعني على ذكرك وشكرك وحسن عبادتك، أو: ربنا آتنا في الدنيا حسنة وفي الآخرة حسنة وقنا عذاب النار",
+    "description_en": "It is recommended to make du'a before taslim, such as: Allahumma a'inni 'ala dhikrika wa shukrika wa husni 'ibadatik, or: Rabbana atina fi'd-dunya hasanatan wa fi'l-akhirati hasanatan wa qina 'adhab an-nar",
+    "svgId": "tashahhud",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "أبو داود 969",
+        "text_ar": "اللهم أعني على ذكرك وشكرك وحسن عبادتك",
+        "text_en": "O Allah, help me to remember You, to thank You, and to worship You in the best manner"
+      }
+    ]
+  },
+  {
+    "id": "isha-28",
+    "prayer": "isha",
+    "order": 28,
+    "title_ar": "التسليم الأول",
+    "title_en": "First Taslim",
+    "description_ar": "التفت برأسك يميناً وقل: السلام عليكم ورحمة الله",
+    "description_en": "Turn your head to the right and say: As-salamu 'alaykum wa rahmat-ullah",
+    "svgId": "salam",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "أبو داود 996",
+        "text_ar": "تحليلها التسليم",
+        "text_en": "Prayer is concluded with taslim"
+      }
+    ]
+  },
+  {
+    "id": "isha-29",
+    "prayer": "isha",
+    "order": 29,
+    "title_ar": "التسليم الثاني",
+    "title_en": "Second Taslim",
+    "description_ar": "التفت برأسك يساراً وقل: السلام عليكم ورحمة الله. بهذا تكتمل صلاة العشاء الأربع ركعات",
+    "description_en": "Turn your head to the left and say: As-salamu 'alaykum wa rahmat-ullah. This completes the four-rakaa Isha prayer",
+    "svgId": "salam",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "الترمذي 295",
+        "text_ar": "كان النبي صلى الله عليه وسلم يسلم عن يمينه وعن شماله حتى يُرى بياض خده",
+        "text_en": "The Prophet (peace be upon him) used to give salam to his right and to his left until the whiteness of his cheek could be seen"
+      },
+      {
+        "kind": "hadith",
+        "ref": "مسلم 634",
+        "text_ar": "وقت العشاء إلى نصف الليل",
+        "text_en": "The time for Isha is until midnight"
+      }
+    ]
+  }
+]

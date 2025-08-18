@@ -1,0 +1,122 @@
+[
+  {
+    "id": "wajibat-1",
+    "title_ar": "التكبيرات الانتقالية",
+    "title_en": "Transitional Takbirs",
+    "description_ar": "قول 'الله أكبر' عند الانتقال بين أركان الصلاة",
+    "description_en": "Saying 'Allahu Akbar' when transitioning between prayer positions",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "كان يكبر في كل خفض ورفع",
+        "text_en": "He used to say Takbir with every lowering and raising",
+        "source": "البخاري"
+      }
+    ]
+  },
+  {
+    "id": "wajibat-2",
+    "title_ar": "قول سمع الله لمن حمده",
+    "title_en": "Saying 'Sami'a Allahu liman hamidah'",
+    "description_ar": "قول الإمام والمنفرد عند الرفع من الركوع",
+    "description_en": "Said by the imam and individual when rising from bowing",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "إذا قال الإمام سمع الله لمن حمده فقولوا ربنا ولك الحمد",
+        "text_en": "When the imam says 'Sami'a Allahu liman hamidah', say 'Rabbana wa laka al-hamd'",
+        "source": "البخاري"
+      }
+    ]
+  },
+  {
+    "id": "wajibat-3",
+    "title_ar": "قول ربنا ولك الحمد",
+    "title_en": "Saying 'Rabbana wa laka al-hamd'",
+    "description_ar": "قول المأموم والمنفرد بعد الرفع من الركوع",
+    "description_en": "Said by the follower and individual after rising from bowing",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "ربنا ولك الحمد حمداً كثيراً طيباً مباركاً فيه",
+        "text_en": "Our Lord, to You is praise, abundant, good and blessed praise",
+        "source": "البخاري"
+      }
+    ]
+  },
+  {
+    "id": "wajibat-4",
+    "title_ar": "تسبيح الركوع",
+    "title_en": "Glorification in Bowing",
+    "description_ar": "قول سبحان ربي العظيم في الركوع",
+    "description_en": "Saying 'Subhana Rabbi al-Azeem' in bowing",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "سبحان ربي العظيم",
+        "text_en": "Glory be to my Lord, the Most Great",
+        "source": "أبو داود"
+      }
+    ]
+  },
+  {
+    "id": "wajibat-5",
+    "title_ar": "تسبيح السجود",
+    "title_en": "Glorification in Prostration",
+    "description_ar": "قول سبحان ربي الأعلى في السجود",
+    "description_en": "Saying 'Subhana Rabbi al-A'la' in prostration",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "سبحان ربي الأعلى",
+        "text_en": "Glory be to my Lord, the Most High",
+        "source": "أبو داود"
+      }
+    ]
+  },
+  {
+    "id": "wajibat-6",
+    "title_ar": "الجلسة بين السجدتين",
+    "title_en": "Sitting Between Two Prostrations",
+    "description_ar": "الجلوس والطمأنينة بين السجدتين",
+    "description_en": "Sitting calmly between the two prostrations",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "كان يجلس بين السجدتين حتى يطمئن",
+        "text_en": "He used to sit between the two prostrations until he was calm",
+        "source": "البخاري"
+      }
+    ]
+  },
+  {
+    "id": "wajibat-7",
+    "title_ar": "التشهد الأول",
+    "title_en": "First Tashahhud",
+    "description_ar": "التشهد في الجلسة الأولى للصلاة الثلاثية والرباعية",
+    "description_en": "Tashahhud in the first sitting of three or four-unit prayers",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "التحيات لله والصلوات والطيبات، السلام عليك أيها النبي ورحمة الله وبركاته",
+        "text_en": "All greetings, prayers and good deeds are for Allah. Peace be upon you, O Prophet, and Allah's mercy and blessings",
+        "source": "البخاري"
+      }
+    ]
+  },
+  {
+    "id": "wajibat-8",
+    "title_ar": "الجلوس للتشهد الأول",
+    "title_en": "Sitting for First Tashahhud",
+    "description_ar": "الجلوس في الركعة الثانية للتشهد الأول",
+    "description_en": "Sitting in the second unit for the first Tashahhud",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "إذا جلس في الركعتين جلس على رجله اليسرى ونصب اليمنى",
+        "text_en": "When he sat in the two units, he sat on his left leg and erected his right",
+        "source": "البخاري"
+      }
+    ]
+  }
+]

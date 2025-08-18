@@ -1,0 +1,122 @@
+[
+  {
+    "id": "sunan-1",
+    "title_ar": "دعاء الاستفتاح",
+    "title_en": "Opening Supplication",
+    "description_ar": "الدعاء بعد تكبيرة الإحرام وقبل قراءة الفاتحة",
+    "description_en": "Supplication after opening Takbir and before reciting Al-Fatiha",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "سبحانك اللهم وبحمدك وتبارك اسمك وتعالى جدك ولا إله غيرك",
+        "text_en": "Glory be to You, O Allah, and praise be to You. Blessed is Your name and exalted is Your majesty, and there is no god but You",
+        "source": "أبو داود"
+      }
+    ]
+  },
+  {
+    "id": "sunan-2",
+    "title_ar": "الاستعاذة",
+    "title_en": "Seeking Refuge",
+    "description_ar": "قول أعوذ بالله من الشيطان الرجيم قبل القراءة",
+    "description_en": "Saying 'A'udhu billahi min ash-shaytani'r-rajim' before recitation",
+    "dalil": [
+      {
+        "type": "quran",
+        "text_ar": "فَإِذَا قَرَأْتَ الْقُرْآنَ فَاسْتَعِذْ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+        "text_en": "So when you recite the Quran, seek refuge in Allah from Satan, the accursed",
+        "source": "النحل: 98"
+      }
+    ]
+  },
+  {
+    "id": "sunan-3",
+    "title_ar": "قول آمين",
+    "title_en": "Saying Ameen",
+    "description_ar": "قول آمين بعد الفاتحة",
+    "description_en": "Saying 'Ameen' after Al-Fatiha",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "إذا أمن الإمام فأمنوا، فإنه من وافق تأمينه تأمين الملائكة غفر له ما تقدم من ذنبه",
+        "text_en": "When the imam says Ameen, say Ameen, for whoever's Ameen coincides with the angels' Ameen will be forgiven his previous sins",
+        "source": "البخاري"
+      }
+    ]
+  },
+  {
+    "id": "sunan-4",
+    "title_ar": "قراءة السورة",
+    "title_en": "Reciting a Surah",
+    "description_ar": "قراءة سورة أو آيات بعد الفاتحة في الركعتين الأوليين",
+    "description_en": "Reciting a surah or verses after Al-Fatiha in the first two units",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "لا صلاة لمن لم يقرأ بفاتحة الكتاب وسورة",
+        "text_en": "There is no prayer for one who does not recite the Opening of the Book and a surah",
+        "source": "أبو داود"
+      }
+    ]
+  },
+  {
+    "id": "sunan-5",
+    "title_ar": "رفع اليدين",
+    "title_en": "Raising the Hands",
+    "description_ar": "رفع اليدين عند تكبيرة الإحرام وعند الركوع والرفع منه",
+    "description_en": "Raising hands during opening Takbir, when bowing, and when rising from bowing",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "كان يرفع يديه إذا كبر وإذا ركع وإذا رفع رأسه من الركوع",
+        "text_en": "He used to raise his hands when he said Takbir, when he bowed, and when he raised his head from bowing",
+        "source": "البخاري"
+      }
+    ]
+  },
+  {
+    "id": "sunan-6",
+    "title_ar": "وضع اليد اليمنى على اليسرى",
+    "title_en": "Placing Right Hand on Left",
+    "description_ar": "وضع اليد اليمنى على اليسرى على الصدر أثناء القيام",
+    "description_en": "Placing the right hand on the left on the chest while standing",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "كان يضع يده اليمنى على يده اليسرى على صدره",
+        "text_en": "He used to place his right hand on his left hand on his chest",
+        "source": "أحمد"
+      }
+    ]
+  },
+  {
+    "id": "sunan-7",
+    "title_ar": "الدعاء بين السجدتين",
+    "title_en": "Supplication Between Prostrations",
+    "description_ar": "الدعاء بين السجدتين: رب اغفر لي",
+    "description_en": "Supplication between prostrations: 'Rabbi ighfir li' (My Lord, forgive me)",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "رب اغفر لي، رب اغفر لي",
+        "text_en": "My Lord, forgive me. My Lord, forgive me",
+        "source": "أبو داود"
+      }
+    ]
+  },
+  {
+    "id": "sunan-8",
+    "title_ar": "الصلاة على النبي في التشهد",
+    "title_en": "Sending Blessings on the Prophet in Tashahhud",
+    "description_ar": "الصلاة على النبي صلى الله عليه وسلم في التشهد الأخير",
+    "description_en": "Sending blessings upon the Prophet ﷺ in the final Tashahhud",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "اللهم صل على محمد وعلى آل محمد كما صليت على إبراهيم وعلى آل إبراهيم",
+        "text_en": "O Allah, send blessings upon Muhammad and the family of Muhammad as You sent blessings upon Ibrahim and the family of Ibrahim",
+        "source": "البخاري"
+      }
+    ]
+  }
+]

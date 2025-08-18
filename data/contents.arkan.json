@@ -1,0 +1,194 @@
+[
+  {
+    "id": "arkan-1",
+    "type": "arkan",
+    "title_ar": "تكبيرة الإحرام",
+    "title_en": "Opening Takbir",
+    "description_ar": "قول الله أكبر عند بداية الصلاة، وهي ركن لا تصح الصلاة بدونها",
+    "description_en": "Saying Allahu Akbar at the beginning of prayer, it is a pillar without which prayer is invalid",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "أبو داود 61",
+        "text_ar": "مفتاح الصلاة الطهور وتحريمها التكبير وتحليلها التسليم",
+        "text_en": "The key to prayer is purification, it begins with takbir and ends with taslim"
+      }
+    ]
+  },
+  {
+    "id": "arkan-2",
+    "type": "arkan",
+    "title_ar": "القيام مع القدرة",
+    "title_en": "Standing with Ability",
+    "description_ar": "الوقوف في الصلاة للقادر عليه، ومن لم يستطع فعلى جنب",
+    "description_en": "Standing in prayer for those who are able, and whoever cannot should pray on their side",
+    "dalil": [
+      {
+        "kind": "quran",
+        "ref": "البقرة:238",
+        "text_ar": "حَافِظُوا عَلَى الصَّلَوَاتِ وَالصَّلَاةِ الْوُسْطَىٰ وَقُومُوا لِلَّهِ قَانِتِينَ",
+        "text_en": "Maintain with care the prayers and the middle prayer and stand before Allah, devoutly obedient"
+      }
+    ]
+  },
+  {
+    "id": "arkan-3",
+    "type": "arkan",
+    "title_ar": "قراءة الفاتحة",
+    "title_en": "Reciting Al-Fatiha",
+    "description_ar": "قراءة سورة الفاتحة في كل ركعة، وهي ركن أساسي",
+    "description_en": "Reciting Surah Al-Fatiha in every rak'ah, it is an essential pillar",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 756",
+        "text_ar": "لا صلاة لمن لم يقرأ بفاتحة الكتاب",
+        "text_en": "There is no prayer for one who does not recite the opening of the Book (Al-Fatiha)"
+      }
+    ]
+  },
+  {
+    "id": "arkan-4",
+    "type": "arkan",
+    "title_ar": "الركوع",
+    "title_en": "Bowing (Ruku)",
+    "description_ar": "الانحناء بحيث تصل اليدان إلى الركبتين أو قريباً منهما",
+    "description_en": "Bowing so that the hands reach the knees or close to them",
+    "dalil": [
+      {
+        "kind": "quran",
+        "ref": "الحج:77",
+        "text_ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا ارْكَعُوا وَاسْجُدُوا وَاعْبُدُوا رَبَّكُمْ وَافْعَلُوا الْخَيْرَ لَعَلَّكُمْ تُفْلِحُونَ",
+        "text_en": "O you who believe! Bow down, prostrate yourselves, and adore your Lord; and do good; that ye may prosper"
+      }
+    ]
+  },
+  {
+    "id": "arkan-5",
+    "type": "arkan",
+    "title_ar": "الرفع من الركوع",
+    "title_en": "Rising from Ruku",
+    "description_ar": "الاعتدال من الركوع والوقوف منتصباً",
+    "description_en": "Straightening up from bowing and standing upright",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 792",
+        "text_ar": "ثم ارفع حتى تعتدل قائماً",
+        "text_en": "Then rise until you stand straight"
+      }
+    ]
+  },
+  {
+    "id": "arkan-6",
+    "type": "arkan",
+    "title_ar": "السجود على الأعضاء السبعة",
+    "title_en": "Prostration on Seven Parts",
+    "description_ar": "السجود على الجبهة والأنف واليدين والركبتين وأطراف القدمين",
+    "description_en": "Prostrating on the forehead, nose, hands, knees, and toes",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 812",
+        "text_ar": "أُمِرْتُ أَنْ أَسْجُدَ عَلَى سَبْعَةِ أَعْظُمٍ: عَلَى الْجَبْهَةِ وَأَشَارَ بِيَدِهِ عَلَى أَنْفِهِ وَالْيَدَيْنِ وَالرُّكْبَتَيْنِ وَأَطْرَافِ الْقَدَمَيْنِ",
+        "text_en": "I was commanded to prostrate on seven bones: on the forehead, and he pointed with his hand to his nose, the hands, knees, and toes"
+      }
+    ]
+  },
+  {
+    "id": "arkan-7",
+    "type": "arkan",
+    "title_ar": "الرفع من السجود",
+    "title_en": "Rising from Prostration",
+    "description_ar": "الجلوس بين السجدتين",
+    "description_en": "Sitting between the two prostrations",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "أبو داود 874",
+        "text_ar": "كان إذا رفع رأسه من السجود جلس واعتمد على يده اليسرى",
+        "text_en": "When he raised his head from prostration, he would sit and lean on his left hand"
+      }
+    ]
+  },
+  {
+    "id": "arkan-8",
+    "type": "arkan",
+    "title_ar": "السجدة الثانية",
+    "title_en": "Second Prostration",
+    "description_ar": "السجود مرة ثانية في كل ركعة",
+    "description_en": "Prostrating a second time in each rak'ah",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 828",
+        "text_ar": "ثم اسجد حتى تطمئن ساجداً، ثم ارفع حتى تطمئن جالساً، ثم اسجد حتى تطمئن ساجداً",
+        "text_en": "Then prostrate until you are at rest in prostration, then rise until you are at rest sitting, then prostrate until you are at rest in prostration"
+      }
+    ]
+  },
+  {
+    "id": "arkan-9",
+    "type": "arkan",
+    "title_ar": "الجلوس للتشهد الأخير",
+    "title_en": "Sitting for Final Tashahhud",
+    "description_ar": "الجلوس في التشهد الأخير بقدر قراءة التشهد",
+    "description_en": "Sitting in the final tashahhud for the duration of reciting the tashahhud",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "مسلم 402",
+        "text_ar": "التحيات لله والصلوات والطيبات، السلام عليك أيها النبي ورحمة الله وبركاته",
+        "text_en": "All compliments, prayers and pure words are due to Allah. Peace be upon you, O Prophet, and Allah's mercy and blessings"
+      }
+    ]
+  },
+  {
+    "id": "arkan-10",
+    "type": "arkan",
+    "title_ar": "التسليم",
+    "title_en": "Taslim (Ending Salutation)",
+    "description_ar": "قول السلام عليكم ورحمة الله لإنهاء الصلاة",
+    "description_en": "Saying 'As-salamu alaykum wa rahmatullah' to end the prayer",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "أبو داود 996",
+        "text_ar": "تحليلها التسليم",
+        "text_en": "It (prayer) is concluded with taslim"
+      }
+    ]
+  },
+  {
+    "id": "arkan-11",
+    "type": "arkan",
+    "title_ar": "الطمأنينة",
+    "title_en": "Tranquility",
+    "description_ar": "الطمأنينة في جميع الأركان وعدم العجلة",
+    "description_en": "Tranquility in all pillars and not rushing",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 793",
+        "text_ar": "ثم اركع حتى تطمئن راكعاً، ثم ارفع حتى تعتدل قائماً، ثم اسجد حتى تطمئن ساجداً",
+        "text_en": "Then bow until you are at rest in bowing, then rise until you stand straight, then prostrate until you are at rest in prostration"
+      }
+    ]
+  },
+  {
+    "id": "arkan-12",
+    "type": "arkan",
+    "title_ar": "الترتيب بين الأركان",
+    "title_en": "Proper Sequence of Pillars",
+    "description_ar": "أداء أركان الصلاة بالترتيب المشروع",
+    "description_en": "Performing the pillars of prayer in the prescribed sequence",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 6667",
+        "text_ar": "صلوا كما رأيتموني أصلي",
+        "text_en": "Pray as you have seen me praying"
+      }
+    ]
+  }
+]

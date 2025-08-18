@@ -1,0 +1,122 @@
+[
+  {
+    "id": "shuroot-1",
+    "title_ar": "الطهارة",
+    "title_en": "Purification",
+    "description_ar": "الوضوء أو الغسل حسب الحاجة قبل الصلاة",
+    "description_en": "Ablution or ritual bath as needed before prayer",
+    "dalil": [
+      {
+        "type": "quran",
+        "text_ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى الصَّلَاةِ فَاغْسِلُوا وُجُوهَكُمْ",
+        "text_en": "O you who believe! When you rise up for prayer, wash your faces",
+        "source": "المائدة: 6"
+      }
+    ]
+  },
+  {
+    "id": "shuroot-2",
+    "title_ar": "دخول الوقت",
+    "title_en": "Entering of Prayer Time",
+    "description_ar": "دخول وقت الصلاة المحدد شرعاً",
+    "description_en": "The entrance of the legally prescribed prayer time",
+    "dalil": [
+      {
+        "type": "quran",
+        "text_ar": "إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَّوْقُوتًا",
+        "text_en": "Indeed, prayer has been decreed upon the believers a decree of specified times",
+        "source": "النساء: 103"
+      }
+    ]
+  },
+  {
+    "id": "shuroot-3",
+    "title_ar": "استقبال القبلة",
+    "title_en": "Facing the Qiblah",
+    "description_ar": "التوجه نحو الكعبة المشرفة في مكة المكرمة",
+    "description_en": "Facing towards the Holy Kaaba in Mecca",
+    "dalil": [
+      {
+        "type": "quran",
+        "text_ar": "فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ وَحَيْثُ مَا كُنتُمْ فَوَلُّوا وُجُوهَكُمْ شَطْرَهُ",
+        "text_en": "So turn your face toward al-Masjid al-Haram. And wherever you are, turn your faces toward it",
+        "source": "البقرة: 144"
+      }
+    ]
+  },
+  {
+    "id": "shuroot-4",
+    "title_ar": "ستر العورة",
+    "title_en": "Covering the Awrah",
+    "description_ar": "تغطية العورة بلباس طاهر ساتر",
+    "description_en": "Covering the private parts with clean, covering clothing",
+    "dalil": [
+      {
+        "type": "quran",
+        "text_ar": "يَا بَنِي آدَمَ خُذُوا زِينَتَكُمْ عِندَ كُلِّ مَسْجِدٍ",
+        "text_en": "O children of Adam, take your adornment at every masjid",
+        "source": "الأعراف: 31"
+      }
+    ]
+  },
+  {
+    "id": "shuroot-5",
+    "title_ar": "طهارة المكان",
+    "title_en": "Purity of Place",
+    "description_ar": "أن يكون مكان الصلاة طاهراً من النجاسات",
+    "description_en": "The place of prayer must be pure from impurities",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "جعلت لي الأرض مسجداً وطهوراً",
+        "text_en": "The earth has been made for me a place of prostration and a means of purification",
+        "source": "البخاري"
+      }
+    ]
+  },
+  {
+    "id": "shuroot-6",
+    "title_ar": "طهارة الثوب",
+    "title_en": "Purity of Clothing",
+    "description_ar": "أن تكون الثياب طاهرة من النجاسات",
+    "description_en": "The clothing must be pure from impurities",
+    "dalil": [
+      {
+        "type": "quran",
+        "text_ar": "وَثِيَابَكَ فَطَهِّرْ",
+        "text_en": "And your clothing purify",
+        "source": "المدثر: 4"
+      }
+    ]
+  },
+  {
+    "id": "shuroot-7",
+    "title_ar": "العقل",
+    "title_en": "Sanity",
+    "description_ar": "أن يكون المصلي عاقلاً مميزاً",
+    "description_en": "The one praying must be sane and discerning",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "رفع القلم عن ثلاثة: عن النائم حتى يستيقظ، وعن المجنون حتى يعقل، وعن الصبي حتى يحتلم",
+        "text_en": "The pen has been lifted from three: from the sleeper until he awakens, from the insane until he becomes sane, and from the child until he reaches puberty",
+        "source": "أبو داود"
+      }
+    ]
+  },
+  {
+    "id": "shuroot-8",
+    "title_ar": "النية",
+    "title_en": "Intention",
+    "description_ar": "نية أداء الصلاة المعينة بالقلب",
+    "description_en": "Intention in the heart to perform the specific prayer",
+    "dalil": [
+      {
+        "type": "hadith",
+        "text_ar": "إنما الأعمال بالنيات وإنما لكل امرئ ما نوى",
+        "text_en": "Actions are but by intention and every person will have only what they intended",
+        "source": "البخاري"
+      }
+    ]
+  }
+]

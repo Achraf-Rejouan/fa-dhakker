@@ -1,0 +1,398 @@
+[
+  {
+    "id": "fajr-1",
+    "prayer": "fajr",
+    "order": 1,
+    "title_ar": "النية والوقوف للصلاة",
+    "title_en": "Intention and Standing for Prayer",
+    "description_ar": "انو في قلبك صلاة الفجر ركعتين فرض لله تعالى، وقف متجهاً نحو القبلة، واجعل قدميك متباعدتين قليلاً. صلاة الفجر ركعتان جهرية (بصوت مسموع)",
+    "description_en": "Intend in your heart to pray Fajr prayer, 2 rakaas as an obligation to Allah. Stand facing the Qibla with feet slightly apart. Fajr prayer is 2 rakaas recited aloud (Jahr)",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "quran",
+        "ref": "البقرة:144",
+        "text_ar": "فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ وَحَيْثُ مَا كُنتُمْ فَوَلُّوا وُجُوهَكُمْ شَطْرَهُ",
+        "text_en": "Turn your face toward the Sacred Mosque, and wherever you are, turn your faces toward it"
+      },
+      {
+        "kind": "hadith",
+        "ref": "البخاري 1",
+        "text_ar": "إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى",
+        "text_en": "Actions are but by intention and every man shall have only that which he intended"
+      }
+    ]
+  },
+  {
+    "id": "fajr-2",
+    "prayer": "fajr",
+    "order": 2,
+    "title_ar": "تكبيرة الإحرام",
+    "title_en": "Opening Takbir (Takbirat al-Ihram)",
+    "description_ar": "ارفع يديك إلى مستوى الأذنين أو المنكبين وقل: الله أكبر. هذه تكبيرة الإحرام التي تدخل بها في الصلاة",
+    "description_en": "Raise your hands to ear level or shoulder level and say: Allahu Akbar. This is the opening takbir that enters you into prayer",
+    "svgId": "takbir",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 733",
+        "text_ar": "كان رسول الله صلى الله عليه وسلم إذا قام إلى الصلاة رفع يديه حتى يحاذي بهما منكبيه",
+        "text_en": "When the Prophet (peace be upon him) stood for prayer, he would raise his hands until they were level with his shoulders"
+      },
+      {
+        "kind": "hadith",
+        "ref": "أبو داود 748",
+        "text_ar": "تحريمها التكبير وتحليلها التسليم",
+        "text_en": "Prayer is entered by takbir and exited by taslim"
+      }
+    ]
+  },
+  {
+    "id": "fajr-3",
+    "prayer": "fajr",
+    "order": 3,
+    "title_ar": "وضع اليدين والاستعاذة",
+    "title_en": "Placing Hands and Seeking Refuge",
+    "description_ar": "ضع يدك اليمنى على اليسرى تحت الصدر أو على الصدر، ثم قل سراً: أعوذ بالله من الشيطان الرجيم",
+    "description_en": "Place your right hand over your left hand below the chest or on the chest, then say silently: A'udhu billahi min ash-shaytani'r-rajim",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "أبو داود 759",
+        "text_ar": "كان رسول الله صلى الله عليه وسلم يضع يده اليمنى على اليسرى",
+        "text_en": "The Prophet (peace be upon him) used to place his right hand over his left hand"
+      },
+      {
+        "kind": "quran",
+        "ref": "النحل:98",
+        "text_ar": "فَإِذَا قَرَأْتَ الْقُرْآنَ فَاسْتَعِذْ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+        "text_en": "When you recite the Quran, seek refuge with Allah from Satan, the accursed"
+      }
+    ]
+  },
+  {
+    "id": "fajr-4",
+    "prayer": "fajr",
+    "order": 4,
+    "title_ar": "البسملة وقراءة الفاتحة",
+    "title_en": "Basmala and Reciting Al-Fatiha",
+    "description_ar": "اقرأ بصوت مسموع (جهراً): بسم الله الرحمن الرحيم، ثم اقرأ سورة الفاتحة كاملة. الفاتحة ركن من أركان الصلاة",
+    "description_en": "Recite aloud (Jahr): Bismillahi'r-rahmani'r-rahim, then recite Surah Al-Fatiha completely. Al-Fatiha is a pillar of prayer",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 756",
+        "text_ar": "لا صلاة لمن لم يقرأ بفاتحة الكتاب",
+        "text_en": "There is no prayer for one who does not recite the opening of the Book (Al-Fatiha)"
+      },
+      {
+        "kind": "hadith",
+        "ref": "مسلم 399",
+        "text_ar": "كان النبي صلى الله عليه وسلم يجهر بالقراءة في الفجر",
+        "text_en": "The Prophet (peace be upon him) used to recite aloud in Fajr prayer"
+      }
+    ]
+  },
+  {
+    "id": "fajr-5",
+    "prayer": "fajr",
+    "order": 5,
+    "title_ar": "قراءة سورة أو آيات",
+    "title_en": "Reciting a Surah or Verses",
+    "description_ar": "اقرأ بصوت مسموع سورة من القرآن أو آيات. يُستحب في الفجر قراءة السور الطوال نسبياً",
+    "description_en": "Recite aloud a surah from the Quran or verses. It is recommended in Fajr to recite relatively longer surahs",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 759",
+        "text_ar": "كان النبي صلى الله عليه وسلم يقرأ في الفجر بالستين إلى المائة آية",
+        "text_en": "The Prophet (peace be upon him) used to recite 60 to 100 verses in Fajr prayer"
+      },
+      {
+        "kind": "hadith",
+        "ref": "مسلم 461",
+        "text_ar": "كان يقرأ في الفجر بطوال المفصل",
+        "text_en": "He used to recite the longer chapters of Al-Mufassal in Fajr"
+      }
+    ]
+  },
+  {
+    "id": "fajr-6",
+    "prayer": "fajr",
+    "order": 6,
+    "title_ar": "تكبيرة الركوع",
+    "title_en": "Takbir for Ruku",
+    "description_ar": "ارفع يديك كما فعلت في تكبيرة الإحرام وقل: الله أكبر، ثم انحن للركوع",
+    "description_en": "Raise your hands as you did in the opening takbir and say: Allahu Akbar, then bow for ruku",
+    "svgId": "takbir",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 739",
+        "text_ar": "كان رسول الله صلى الله عليه وسلم يرفع يديه إذا كبر وإذا ركع",
+        "text_en": "The Prophet (peace be upon him) used to raise his hands when he said takbir and when he bowed"
+      }
+    ]
+  },
+  {
+    "id": "fajr-7",
+    "prayer": "fajr",
+    "order": 7,
+    "title_ar": "الركوع والتسبيح",
+    "title_en": "Ruku and Glorification",
+    "description_ar": "انحن بظهرك مستقيماً واجعل يديك على ركبتيك، وقل: سبحان ربي العظيم (ثلاث مرات على الأقل)",
+    "description_en": "Bow with your back straight and place hands on knees, and say: Subhana rabbiya'l-azim (at least three times)",
+    "svgId": "ruku",
+    "dalil": [
+      {
+        "kind": "quran",
+        "ref": "الحج:77",
+        "text_ar": "وَارْكَعُوا وَاسْجُدُوا وَاعْبُدُوا رَبَّكُمْ وَافْعَلُوا الْخَيْرَ",
+        "text_en": "Bow and prostrate and worship your Lord and do good"
+      },
+      {
+        "kind": "hadith",
+        "ref": "أبو داود 870",
+        "text_ar": "فأما الركوع فعظموا فيه الرب",
+        "text_en": "As for ruku, glorify your Lord in it"
+      }
+    ]
+  },
+  {
+    "id": "fajr-8",
+    "prayer": "fajr",
+    "order": 8,
+    "title_ar": "الرفع من الركوع",
+    "title_en": "Rising from Ruku",
+    "description_ar": "ارفع رأسك من الركوع مع رفع اليدين وقل: سمع الله لمن حمده، ثم قل وأنت واقف: ربنا ولك الحمد",
+    "description_en": "Raise your head from ruku while raising your hands and say: Sami'a Allahu liman hamidah, then while standing say: Rabbana wa laka'l-hamd",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 795",
+        "text_ar": "كان النبي صلى الله عليه وسلم إذا رفع رأسه من الركوع قال: سمع الله لمن حمده",
+        "text_en": "When the Prophet (peace be upon him) raised his head from ruku, he would say: Sami'a Allahu liman hamidah"
+      }
+    ]
+  },
+  {
+    "id": "fajr-9",
+    "prayer": "fajr",
+    "order": 9,
+    "title_ar": "تكبيرة السجود الأول",
+    "title_en": "Takbir for First Sujud",
+    "description_ar": "قل: الله أكبر واسجد على سبعة أعضاء: الجبهة والأنف واليدين والركبتين وأطراف القدمين",
+    "description_en": "Say: Allahu Akbar and prostrate on seven parts: forehead, nose, hands, knees, and toes",
+    "svgId": "sujud",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 812",
+        "text_ar": "أُمِرْتُ أَنْ أَسْجُدَ عَلَى سَبْعَةِ أَعْظُمٍ: عَلَى الْجَبْهَةِ وَأَشَارَ بِيَدِهِ عَلَى أَنْفِهِ وَالْيَدَيْنِ وَالرُّكْبَتَيْنِ وَأَطْرَافِ الْقَدَمَيْنِ",
+        "text_en": "I was commanded to prostrate on seven bones: the forehead (and he pointed to his nose), the hands, the knees, and the toes"
+      }
+    ]
+  },
+  {
+    "id": "fajr-10",
+    "prayer": "fajr",
+    "order": 10,
+    "title_ar": "التسبيح في السجود",
+    "title_en": "Glorification in Sujud",
+    "description_ar": "وأنت ساجد قل: سبحان ربي الأعلى (ثلاث مرات على الأقل). يمكنك الدعاء في السجود",
+    "description_en": "While prostrating say: Subhana rabbiya'l-a'la (at least three times). You may make du'a in sujud",
+    "svgId": "sujud",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "مسلم 484",
+        "text_ar": "وأما السجود فاجتهدوا في الدعاء فقمن أن يستجاب لكم",
+        "text_en": "As for sujud, strive in supplication, for it is most likely that you will be answered"
+      }
+    ]
+  },
+  {
+    "id": "fajr-11",
+    "prayer": "fajr",
+    "order": 11,
+    "title_ar": "الجلوس بين السجدتين",
+    "title_en": "Sitting Between Two Sujuds",
+    "description_ar": "ارفع رأسك من السجود مع التكبير واجلس على قدمك اليسرى وانصب اليمنى، وقل: رب اغفر لي",
+    "description_en": "Raise your head from sujud with takbir and sit on your left foot with the right foot upright, and say: Rabbi'ghfir li",
+    "svgId": "tashahhud",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "أبو داود 874",
+        "text_ar": "كان النبي صلى الله عليه وسلم يقول بين السجدتين: رب اغفر لي رب اغفر لي",
+        "text_en": "The Prophet (peace be upon him) used to say between the two sujuds: Rabbi'ghfir li, Rabbi'ghfir li"
+      }
+    ]
+  },
+  {
+    "id": "fajr-12",
+    "prayer": "fajr",
+    "order": 12,
+    "title_ar": "السجود الثاني",
+    "title_en": "Second Sujud",
+    "description_ar": "كبر واسجد السجدة الثانية كما فعلت في الأولى، وسبح: سبحان ربي الأعلى",
+    "description_en": "Say takbir and make the second sujud as you did the first, and glorify: Subhana rabbiya'l-a'la",
+    "svgId": "sujud",
+    "dalil": [
+      {
+        "kind": "quran",
+        "ref": "الحج:77",
+        "text_ar": "وَارْكَعُوا وَاسْجُدُوا وَاعْبُدُوا رَبَّكُمْ",
+        "text_en": "Bow and prostrate and worship your Lord"
+      }
+    ]
+  },
+  {
+    "id": "fajr-13",
+    "prayer": "fajr",
+    "order": 13,
+    "title_ar": "القيام للركعة الثانية",
+    "title_en": "Standing for Second Rakaa",
+    "description_ar": "ارفع من السجود مع التكبير وقم للركعة الثانية. هذا يكمل الركعة الأولى من صلاة الفجر",
+    "description_en": "Rise from sujud with takbir and stand for the second rakaa. This completes the first rakaa of Fajr prayer",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 823",
+        "text_ar": "صلوا كما رأيتموني أصلي",
+        "text_en": "Pray as you have seen me pray"
+      }
+    ]
+  },
+  {
+    "id": "fajr-14",
+    "prayer": "fajr",
+    "order": 14,
+    "title_ar": "الفاتحة في الركعة الثانية",
+    "title_en": "Al-Fatiha in Second Rakaa",
+    "description_ar": "اقرأ الفاتحة جهراً في الركعة الثانية، ثم اقرأ سورة أو آيات من القرآن",
+    "description_en": "Recite Al-Fatiha aloud in the second rakaa, then recite a surah or verses from the Quran",
+    "svgId": "standing",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 756",
+        "text_ar": "لا صلاة لمن لم يقرأ بفاتحة الكتاب",
+        "text_en": "There is no prayer for one who does not recite Al-Fatiha"
+      }
+    ]
+  },
+  {
+    "id": "fajr-15",
+    "prayer": "fajr",
+    "order": 15,
+    "title_ar": "ركوع وسجود الركعة الثانية",
+    "title_en": "Ruku and Sujud of Second Rakaa",
+    "description_ar": "اركع واسجد كما فعلت في الركعة الأولى مع نفس الأذكار والتسبيحات",
+    "description_en": "Perform ruku and sujud as you did in the first rakaa with the same dhikr and glorifications",
+    "svgId": "ruku",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "مسلم 397",
+        "text_ar": "كان النبي صلى الله عليه وسلم يصلي الركعتين كما صلى الأولى",
+        "text_en": "The Prophet (peace be upon him) would pray the second rakaa as he prayed the first"
+      }
+    ]
+  },
+  {
+    "id": "fajr-16",
+    "prayer": "fajr",
+    "order": 16,
+    "title_ar": "الجلوس للتشهد",
+    "title_en": "Sitting for Tashahhud",
+    "description_ar": "بعد السجدة الثانية من الركعة الثانية، اجلس للتشهد الأخير",
+    "description_en": "After the second sujud of the second rakaa, sit for the final tashahhud",
+    "svgId": "tashahhud",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 831",
+        "text_ar": "كان النبي صلى الله عليه وسلم إذا جلس في الصلاة وضع يده اليمنى على فخذه اليمنى",
+        "text_en": "When the Prophet (peace be upon him) sat in prayer, he would place his right hand on his right thigh"
+      }
+    ]
+  },
+  {
+    "id": "fajr-17",
+    "prayer": "fajr",
+    "order": 17,
+    "title_ar": "قراءة التشهد",
+    "title_en": "Reciting Tashahhud",
+    "description_ar": "اقرأ التشهد: التحيات لله والصلوات والطيبات، السلام عليك أيها النبي ورحمة الله وبركاته، السلام علينا وعلى عباد الله الصالحين، أشهد أن لا إله إلا الله وأشهد أن محمداً عبده ورسوله",
+    "description_en": "Recite the tashahhud: At-tahiyyatu lillahi wa's-salawatu wa't-tayyibat, as-salamu 'alayka ayyuha'n-nabiyyu wa rahmat-ullahi wa barakatuh, as-salamu 'alayna wa 'ala 'ibad-illahi's-salihin, ashhadu an la ilaha illa Allah wa ashhadu anna Muhammadan 'abduhu wa rasuluh",
+    "svgId": "tashahhud",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 835",
+        "text_ar": "علمني رسول الله صلى الله عليه وسلم التشهد",
+        "text_en": "The Messenger of Allah (peace be upon him) taught me the tashahhud"
+      }
+    ]
+  },
+  {
+    "id": "fajr-18",
+    "prayer": "fajr",
+    "order": 18,
+    "title_ar": "الصلاة على النبي",
+    "title_en": "Salawat on the Prophet",
+    "description_ar": "اللهم صل على محمد وعلى آل محمد كما صليت على إبراهيم وعلى آل إبراهيم إنك حميد مجيد، اللهم بارك على محمد وعلى آل محمد كما باركت على إبراهيم وعلى آل إبراهيم إنك حميد مجيد",
+    "description_en": "Allahumma salli 'ala Muhammad wa 'ala ali Muhammad kama sallayta 'ala Ibrahim wa 'ala ali Ibrahim innaka hamidun majid, Allahumma barik 'ala Muhammad wa 'ala ali Muhammad kama barakta 'ala Ibrahim wa 'ala ali Ibrahim innaka hamidun majid",
+    "svgId": "tashahhud",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "البخاري 3370",
+        "text_ar": "قولوا: اللهم صل على محمد وعلى آل محمد",
+        "text_en": "Say: Allahumma salli 'ala Muhammad wa 'ala ali Muhammad"
+      }
+    ]
+  },
+  {
+    "id": "fajr-19",
+    "prayer": "fajr",
+    "order": 19,
+    "title_ar": "التسليم الأول",
+    "title_en": "First Taslim",
+    "description_ar": "التفت برأسك يميناً وقل: السلام عليكم ورحمة الله",
+    "description_en": "Turn your head to the right and say: As-salamu 'alaykum wa rahmat-ullah",
+    "svgId": "salam",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "أبو داود 996",
+        "text_ar": "تحليلها التسليم",
+        "text_en": "Prayer is concluded with taslim"
+      }
+    ]
+  },
+  {
+    "id": "fajr-20",
+    "prayer": "fajr",
+    "order": 20,
+    "title_ar": "التسليم الثاني",
+    "title_en": "Second Taslim",
+    "description_ar": "التفت برأسك يساراً وقل: السلام عليكم ورحمة الله. بهذا تكتمل صلاة الفجر",
+    "description_en": "Turn your head to the left and say: As-salamu 'alaykum wa rahmat-ullah. This completes the Fajr prayer",
+    "svgId": "salam",
+    "dalil": [
+      {
+        "kind": "hadith",
+        "ref": "الترمذي 295",
+        "text_ar": "كان النبي صلى الله عليه وسلم يسلم عن يمينه وعن شماله",
+        "text_en": "The Prophet (peace be upon him) used to give salam to his right and to his left"
+      }
+    ]
+  }
+]

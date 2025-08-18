@@ -1,0 +1,122 @@
+[
+  {
+    "id": "faq-1",
+    "question_ar": "ما هي أوقات الصلوات الخمس؟",
+    "question_en": "What are the times for the five daily prayers?",
+    "answer_ar": "الفجر: من طلوع الفجر الصادق إلى طلوع الشمس. الظهر: من زوال الشمس إلى أن يصير ظل كل شيء مثله. العصر: من انتهاء وقت الظهر إلى غروب الشمس. المغرب: من غروب الشمس إلى مغيب الشفق الأحمر. العشاء: من مغيب الشفق الأحمر إلى منتصف الليل.",
+    "answer_en": "Fajr: From true dawn until sunrise. Dhuhr: From sun's zenith until shadow equals object length. Asr: From end of Dhuhr until sunset. Maghrib: From sunset until red twilight disappears. Isha: From red twilight until midnight.",
+    "tags": ["أوقات", "times"],
+    "dalil": {
+      "quran": "أَقِمِ الصَّلَاةَ لِدُلُوكِ الشَّمْسِ إِلَىٰ غَسَقِ اللَّيْلِ وَقُرْآنَ الْفَجْرِ ۖ إِنَّ قُرْآنَ الْفَجْرِ كَانَ مَشْهُودًا",
+      "reference": "الإسراء: 78"
+    }
+  },
+  {
+    "id": "faq-2",
+    "question_ar": "هل يجوز الصلاة بدون وضوء؟",
+    "question_en": "Is it permissible to pray without ablution?",
+    "answer_ar": "لا، الوضوء شرط من شروط صحة الصلاة. قال النبي صلى الله عليه وسلم: لا يقبل الله صلاة أحدكم إذا أحدث حتى يتوضأ.",
+    "answer_en": "No, ablution is a condition for valid prayer. The Prophet (peace be upon him) said: Allah does not accept the prayer of anyone who has broken his ablution until he performs ablution again.",
+    "tags": ["وضوء", "ablution", "شروط"],
+    "dalil": {
+      "hadith": "لا يقبل الله صلاة أحدكم إذا أحدث حتى يتوضأ",
+      "reference": "البخاري ومسلم"
+    }
+  },
+  {
+    "id": "faq-3",
+    "question_ar": "ما حكم الدعاء الجماعي بعد الصلاة؟",
+    "question_en": "What is the ruling on collective supplication after prayer?",
+    "answer_ar": "الدعاء الجماعي بصوت واحد بعد الصلاة بدعة لم تثبت عن النبي صلى الله عليه وسلم ولا عن الصحابة. الأفضل أن يدعو كل مصل بنفسه سراً، أو يدعو الإمام والمأمومون يؤمنون في قلوبهم.",
+    "answer_en": "Collective supplication in unison after prayer is an innovation not established from the Prophet (peace be upon him) or the Companions. It's better for each worshipper to supplicate individually in silence, or for the imam to supplicate while the congregation says 'Ameen' in their hearts.",
+    "tags": ["بدعة", "دعاء", "innovation", "supplication"],
+    "dalil": {
+      "hadith": "من أحدث في أمرنا هذا ما ليس منه فهو رد",
+      "reference": "البخاري ومسلم"
+    }
+  },
+  {
+    "id": "faq-4",
+    "question_ar": "هل يجوز رفع الصوت بالذكر بعد الصلاة؟",
+    "question_en": "Is it permissible to raise the voice in dhikr after prayer?",
+    "answer_ar": "نعم، ثبت عن ابن عباس رضي الله عنهما أن رفع الصوت بالذكر حين ينصرف الناس من المكتوبة كان على عهد النبي صلى الله عليه وسلم. لكن يكون بالمأثور فقط وليس بصيغ مبتدعة.",
+    "answer_en": "Yes, it's established from Ibn Abbas that raising the voice in dhikr when people departed from the obligatory prayer was during the time of the Prophet (peace be upon him). However, it should only be with the authentic supplications, not with innovated formulas.",
+    "tags": ["ذكر", "dhikr", "سنة"],
+    "dalil": {
+      "hadith": "أن رفع الصوت بالذكر حين ينصرف الناس من المكتوبة كان على عهد النبي صلى الله عليه وسلم",
+      "reference": "البخاري ومسلم عن ابن عباس"
+    }
+  },
+  {
+    "id": "faq-5",
+    "question_ar": "ما حكم المبالغة في تحريك الإصبع في التشهد؟",
+    "question_en": "What is the ruling on exaggerated finger movement during tashahhud?",
+    "answer_ar": "المبالغة في تحريك الإصبع كالهز المستمر أو الحركة المفرطة بدعة. السنة هي الإشارة بالإصبع عند الدعاء كما ورد في الحديث، وليس التحريك المستمر.",
+    "answer_en": "Exaggerating finger movement like continuous shaking or excessive motion is an innovation. The Sunnah is to point with the finger during supplication as mentioned in the hadith, not continuous movement.",
+    "tags": ["بدعة", "تشهد", "innovation", "tashahhud"],
+    "dalil": {
+      "hadith": "كان رسول الله صلى الله عليه وسلم إذا جلس في التشهد وضع يده اليسرى على ركبته اليسرى ويده اليمنى على ركبته اليمنى وأشار بإصبعه",
+      "reference": "مسلم"
+    }
+  },
+  {
+    "id": "faq-6",
+    "question_ar": "هل يجوز إضافة أذكار غير مأثورة بعد الصلاة؟",
+    "question_en": "Is it permissible to add non-authentic dhikr after prayer?",
+    "answer_ar": "لا يجوز إضافة أذكار غير مأثورة عن النبي صلى الله عليه وسلم بعد الصلاة على سبيل التعبد. الأذكار المشروعة بعد الصلاة محددة في السنة النبوية، وإضافة غيرها بدعة.",
+    "answer_en": "It's not permissible to add non-authentic dhikr after prayer as an act of worship. The prescribed dhikr after prayer is specified in the Prophetic Sunnah, and adding others is an innovation.",
+    "tags": ["بدعة", "ذكر", "innovation", "dhikr"],
+    "dalil": {
+      "hadith": "من عمل عملاً ليس عليه أمرنا فهو رد",
+      "reference": "مسلم"
+    }
+  },
+  {
+    "id": "faq-7",
+    "question_ar": "ما حكم الصلاة على النبي بصيغ مبتدعة؟",
+    "question_en": "What is the ruling on sending blessings upon the Prophet with innovated formulas?",
+    "answer_ar": "الأفضل الاقتصار على الصيغ المأثورة في الصلاة على النبي صلى الله عليه وسلم. أما الصيغ المبتدعة التي لم تثبت في السنة فتركها أولى، خاصة إذا اعتقد أنها مشروعة.",
+    "answer_en": "It's better to limit oneself to the authentic formulas for sending blessings upon the Prophet (peace be upon him). As for innovated formulas not established in the Sunnah, it's better to avoid them, especially if one believes they are prescribed.",
+    "tags": ["بدعة", "صلاة على النبي", "innovation"],
+    "dalil": {
+      "quran": "إِنَّ اللَّهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ ۚ يَا أَيُّهَا الَّذِينَ آمَنُوا صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيمًا",
+      "reference": "الأحزاب: 56"
+    }
+  },
+  {
+    "id": "faq-8",
+    "question_ar": "هل يجوز قراءة القرآن جماعياً بعد الصلاة؟",
+    "question_en": "Is it permissible to recite Quran collectively after prayer?",
+    "answer_ar": "القراءة الجماعية للقرآن بصوت واحد بعد الصلاة لم تثبت عن النبي صلى الله عليه وسلم. الأفضل أن يقرأ كل مصل لنفسه، أو يقرأ واحد والآخرون يستمعون.",
+    "answer_en": "Collective Quran recitation in unison after prayer is not established from the Prophet (peace be upon him). It's better for each worshipper to recite individually, or for one to recite while others listen.",
+    "tags": ["بدعة", "قرآن", "innovation", "quran"],
+    "dalil": {
+      "quran": "وَإِذَا قُرِئَ الْقُرْآنُ فَاسْتَمِعُوا لَهُ وَأَنصِتُوا لَعَلَّكُمْ تُرْحَمُونَ",
+      "reference": "الأعراف: 204"
+    }
+  },
+  {
+    "id": "faq-9",
+    "question_ar": "ما حكم التصفيق أو التهليل الجماعي في المسجد؟",
+    "question_en": "What is the ruling on clapping or collective chanting in the mosque?",
+    "answer_ar": "التصفيق والتهليل الجماعي في المسجد بدعة منكرة لم تثبت عن السلف. المسجد مكان للعبادة والذكر المشروع، وليس للأصوات والحركات المبتدعة.",
+    "answer_en": "Clapping and collective chanting in the mosque is a reprehensible innovation not established from the predecessors. The mosque is a place for worship and prescribed dhikr, not for innovated sounds and movements.",
+    "tags": ["بدعة", "مسجد", "innovation", "mosque"],
+    "dalil": {
+      "hadith": "إنما التصفيق للنساء وإنما التسبيح للرجال",
+      "reference": "البخاري ومسلم"
+    }
+  },
+  {
+    "id": "faq-10",
+    "question_ar": "هل يجوز إطالة السجود بشكل مفرط؟",
+    "question_en": "Is it permissible to excessively prolong prostration?",
+    "answer_ar": "الإطالة المفرطة في السجود خلاف السنة، خاصة في الصلاة الجماعية حيث يشق على المأمومين. السنة الاعتدال في جميع أركان الصلاة كما فعل النبي صلى الله عليه وسلم.",
+    "answer_en": "Excessive prolongation of prostration is contrary to the Sunnah, especially in congregational prayer where it causes hardship for the congregation. The Sunnah is moderation in all pillars of prayer as the Prophet (peace be upon him) did.",
+    "tags": ["سجود", "اعتدال", "prostration", "moderation"],
+    "dalil": {
+      "hadith": "صلوا كما رأيتموني أصلي",
+      "reference": "البخاري"
+    }
+  }
+]
