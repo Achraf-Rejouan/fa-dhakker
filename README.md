@@ -24,11 +24,13 @@
 ## 🛠️ Technology Stack
 
 ### Frontend Framework
+
 - **Next.js 14**: React framework with App Router for modern web development
 - **TypeScript**: Type-safe JavaScript for better development experience
 - **React 18**: Latest React features with concurrent rendering
 
 ### Styling & UI
+
 - **Tailwind CSS v4**: Utility-first CSS framework with custom configuration
 - **shadcn/ui**: High-quality, accessible UI components
 - **Framer Motion**: Smooth animations and transitions
@@ -36,72 +38,76 @@
 - **Lucide React**: Beautiful, customizable icons
 
 ### State Management & Data
+
 - **React Context**: Global state management for i18n and theme
 - **JSON Data Store**: Structured prayer content with Islamic references
 - **Static Site Generation**: Pre-rendered pages for optimal performance
 
 ### Development Tools
+
 - **ESLint**: Code linting and quality assurance
 - **Prettier**: Code formatting (implied)
 - **Git**: Version control with automated v0.app sync
 
 ### Deployment & Hosting
+
 - **Vercel**: Serverless deployment platform
 
 ## 🏗️ Project Architecture
 
-### Directory Structure
+### 📂 Directory Structure
 
-\`\`\`
+```bash
 fa-dhakker/
-├── app/                          # Next.js App Router
-│   ├── about/                    # About page
-│   ├── chat/                     # AI assistant page
-│   ├── content/                  # Prayer content browser
-│   ├── faq/                      # Frequently asked questions
-│   ├── learn/[prayer]/           # Dynamic prayer learning pages
-│   ├── globals.css               # Global styles and Tailwind config
-│   ├── layout.tsx                # Root layout with providers
-│   └── page.tsx                  # Homepage with landing animation
-├── components/                   # Reusable React components
-│   ├── layout/                   # Layout components
-│   │   ├── navbar.tsx            # Navigation with mobile menu
-│   │   └── footer.tsx            # Footer with author credits
-│   ├── svg/                      # SVG animation components
-│   │   └── prayer-pose.tsx       # Animated prayer positions
-│   └── ui/                       # shadcn/ui components
-│       ├── arabic-logo-animation.tsx  # Landing page animation
-│       ├── islamic-quote-popup.tsx    # Inspirational quotes popup
-│       ├── lang-switcher.tsx          # Language toggle
-│       ├── mode-toggle.tsx            # Theme switcher
-│       └── [other-ui-components]      # Various UI components
-├── data/                         # Static JSON data
-│   ├── contents.arkan.json       # Prayer pillars (أركان الصلاة)
-│   ├── contents.wajibat.json     # Prayer obligations (واجبات الصلاة)
-│   ├── contents.sunan.json       # Prayer recommendations (سنن الصلاة)
-│   ├── contents.shuroot.json     # Prayer conditions (شروط الصلاة)
-│   ├── steps.fajr.json           # Fajr prayer steps (2 rakaas, Jahr)
-│   ├── steps.dhuhr.json          # Dhuhr prayer steps (4 rakaas, Sir)
-│   ├── steps.asr.json            # Asr prayer steps (4 rakaas, Sir)
-│   ├── steps.maghrib.json        # Maghrib prayer steps (3 rakaas, Jahr)
-│   ├── steps.isha.json           # Isha prayer steps (4 rakaas, Jahr/Sir)
-│   └── faq.json                  # FAQ with Islamic references
-├── lib/                          # Utility libraries
-│   ├── api.ts                    # Data fetching with fallbacks
-│   ├── i18n.tsx                  # Internationalization context
-│   └── utils.ts                  # Utility functions (cn, etc.)
-├── types/                        # TypeScript type definitions
-│   └── content.ts                # Prayer content type definitions
-└── public/                       # Static assets
-    └── images/                   # Image assets
-\`\`\`
+├── 📁 app/                          # Next.js App Router
+│   ├── 📄 about/                    # About page
+│   ├── 🤖 chat/                     # AI assistant page
+│   ├── 📚 content/                  # Prayer content browser
+│   ├── ❓ faq/                       # Frequently asked questions
+│   ├── 🕌 learn/[prayer]/            # Dynamic prayer learning pages
+│   ├── 🎨 globals.css               # Global styles and Tailwind config
+│   ├── 🧩 layout.tsx                # Root layout with providers
+│   └── 🏠 page.tsx                  # Homepage with landing animation
+├── 📁 components/                   # Reusable React components
+│   ├── 📐 layout/                   # Layout components
+│   │   ├── ☰ navbar.tsx             # Navigation with mobile menu
+│   │   └── 📎 footer.tsx            # Footer with author credits
+│   ├── 🎞️ svg/                      # SVG animation components
+│   │   └── 🙏 prayer-pose.tsx       # Animated prayer positions
+│   └── 🎛️ ui/                       # shadcn/ui components
+│       ├── ✍️ arabic-logo-animation.tsx  # Landing page animation
+│       ├── 💡 islamic-quote-popup.tsx    # Inspirational quotes popup
+│       ├── 🌐 lang-switcher.tsx          # Language toggle
+│       ├── 🌙 mode-toggle.tsx            # Theme switcher
+│       └── 🧩 [other-ui-components]      # Various UI components
+├── 📜 data/                         # Static JSON data
+│   ├── 🕌 contents.arkan.json       # Prayer pillars (أركان الصلاة)
+│   ├── 📜 contents.wajibat.json     # Prayer obligations (واجبات الصلاة)
+│   ├── ⭐ contents.sunan.json       # Prayer recommendations (سنن الصلاة)
+│   ├── 📋 contents.shuroot.json     # Prayer conditions (شروط الصلاة)
+│   ├── 🌅 steps.fajr.json           # Fajr prayer steps (2 rakaas, Jahr)
+│   ├── ☀️ steps.dhuhr.json          # Dhuhr prayer steps (4 rakaas, Sir)
+│   ├── 🌇 steps.asr.json            # Asr prayer steps (4 rakaas, Sir)
+│   ├── 🌆 steps.maghrib.json        # Maghrib prayer steps (3 rakaas, Jahr)
+│   ├── 🌙 steps.isha.json           # Isha prayer steps (4 rakaas, Jahr/Sir)
+│   └── ❓ faq.json                   # FAQ with Islamic references
+├── ⚙️ lib/                          # Utility libraries
+│   ├── 🔌 api.ts                    # Data fetching with fallbacks
+│   ├── 🌍 i18n.tsx                  # Internationalization context
+│   └── 🛠️ utils.ts                  # Utility functions (cn, etc.)
+├── 📝 types/                        # TypeScript type definitions
+│   └── 📑 content.ts                # Prayer content type definitions
+└── 🌍 public/                       # Static assets
+    └── 🖼️ images/                   # Image assets
+```
 
 ### Data Architecture
 
 #### Prayer Steps Structure
+
 Each prayer (Fajr, Dhuhr, Asr, Maghrib, Isha) has detailed step-by-step instructions:
 
-\`\`\`typescript
+```typescript
 interface PrayerStep {
   id: string                    // Unique identifier
   prayer: string               // Prayer name
@@ -120,9 +126,10 @@ interface DalilReference {
   text_ar: string            // Arabic text
   text_en: string            // English translation
 }
-\`\`\`
+```
 
 #### Prayer Characteristics
+
 - **Fajr**: 2 rakaas, Jahr (aloud recitation)
 - **Dhuhr**: 4 rakaas, Sir (silent recitation)
 - **Asr**: 4 rakaas, Sir (silent recitation)
@@ -132,12 +139,14 @@ interface DalilReference {
 ### Component Architecture
 
 #### Core Components
+
 - **Layout Components**: Navbar, Footer with responsive design
 - **Prayer Components**: Step-by-step guides with SVG animations
 - **UI Components**: shadcn/ui based with custom Islamic theming
 - **Animation Components**: Framer Motion powered transitions
 
 #### State Management
+
 - **Theme Context**: Dark/light mode with system preference
 - **i18n Context**: Arabic/English language switching
 - **Local State**: Component-level state for interactions
@@ -145,13 +154,15 @@ interface DalilReference {
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+ 
+
+- Node.js 18+
 - npm, yarn, or pnpm package manager
 - Git for version control
 
 ## 📱 Usage Guide
 
 ### Navigation
+
 - **Homepage**: Landing animation and prayer overview
 - **Learn**: Step-by-step prayer guides for each of the five prayers
 - **Content**: Browse prayer pillars, obligations, recommendations, and conditions
@@ -160,6 +171,7 @@ interface DalilReference {
 - **About**: Information about the app and its purpose
 
 ### Features
+
 - **Language Toggle**: Switch between Arabic and English
 - **Theme Toggle**: Switch between light and dark modes
 - **Prayer Animations**: Visual demonstrations of prayer positions
@@ -169,17 +181,20 @@ interface DalilReference {
 ## 🎨 Design System
 
 ### Color Palette
+
 - **Primary**: Green (#16a34a) - Islamic theme
 - **Secondary**: Blue (#3b82f6) - Accent color
 - **Neutral**: Gray scale for text and backgrounds
 - **Success/Error**: Standard semantic colors
 
 ### Typography
+
 - **Arabic**: Cairo font family for proper Arabic rendering
 - **English**: Inter font family for clean readability
 - **Hierarchy**: Consistent sizing scale with proper line heights
 
 ### Components
+
 - **Cards**: Elevated surfaces with subtle shadows
 - **Buttons**: Consistent styling with hover states
 - **Forms**: Accessible inputs with proper validation
@@ -188,6 +203,7 @@ interface DalilReference {
 ## 🤝 Contributing
 
 ### Development Workflow
+
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Make your changes following the coding standards
@@ -197,6 +213,7 @@ interface DalilReference {
 7. Open a Pull Request
 
 ### Coding Standards
+
 - **TypeScript**: Use proper typing for all components and functions
 - **Components**: Follow React best practices and hooks patterns
 - **Styling**: Use Tailwind CSS classes, avoid custom CSS when possible
@@ -204,6 +221,7 @@ interface DalilReference {
 - **Islamic Content**: Verify all religious content with authentic sources
 
 ### Content Guidelines
+
 - **Islamic Accuracy**: All prayer instructions must be authentic and verified
 - **References**: Include proper citations for Quranic verses and Hadith
 - **Language**: Maintain respectful and educational tone
@@ -216,6 +234,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 ### Islamic Sources
+
 - **Quran**: Primary source for Islamic guidance
 - **Sahih Bukhari**: Authentic Hadith collection
 - **Sahih Muslim**: Authentic Hadith collection  
@@ -224,6 +243,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **An-Nasa'i**: Hadith collection for prayer specifics
 
 ### Technical Credits
+
 - **Next.js Team**: React framework
 - **Tailwind CSS**: Utility-first CSS framework
 - **shadcn**: UI component library
@@ -231,6 +251,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Vercel**: Deployment and hosting platform
 
 ### Development
+
 - **Developer**: [REJOUAN Achraf](https://achrafrejouan.vercel.app/)
 - **Portfolio**: [achrafrejouan.vercel.app](https://achrafrejouan.vercel.app/)
 - **GitHub**: [@Achraf-Rejouan](https://github.com/Achraf-Rejouan)
@@ -239,7 +260,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 For questions, suggestions, or Islamic content verification:
-- **Email**: achrafrejouan@gmail.com
+
+- **Email**: <achrafrejouan@gmail.com>
 - **GitHub Issues**: [Create an issue](https://github.com/Achraf-Rejouan/fa-dhakker/issues)
 
 ---
