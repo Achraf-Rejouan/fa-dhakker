@@ -1,7 +1,9 @@
 {
   "name": "fa-dhakker",
   "version": "0.1.0",
-  "private": true,
+  "description": "A modern Islamic prayer teaching app with React + Express + PostgreSQL",
+  "license": "MIT",
+  "author": "Achraf Rejouan",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
