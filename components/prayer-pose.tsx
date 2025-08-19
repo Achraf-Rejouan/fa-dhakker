@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 
-type PoseType = "standing" | "takbir" | "ruku" | "sujud" | "tashahhud" | "salam"
+type PoseType = "standing" | "takbir" | "ruku" | "sujud" | "tashahhud" | "salam" | "julus"
 
 interface PrayerPoseProps {
   pose: PoseType
@@ -18,6 +18,7 @@ const poseImages: Record<PoseType, string> = {
   sujud: "/poses/sujud.png",
   tashahhud: "/poses/tashahhud.png",
   salam: "/poses/salam.png",
+  julus: "/poses/julus.png",
 }
 
 export function PrayerPose({ pose, className = "", animate = true }: PrayerPoseProps) {
