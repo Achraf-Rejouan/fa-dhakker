@@ -29,10 +29,11 @@ export function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           {/* Logo with Palestine Flag */}
-          <Link href="/" className="flex items-center space-x-2 rtl:space-x-reverse">
+          <Link href="/" className="flex items-center rtl:space-x-reverse">
             <PalestineFlag />
-            <span className="font-bold text-xl text-green-600 font-arabic">فَذَكِّر</span>
+            <span className="ml-3 rtl:mr-3 font-bold text-xl text-green-600 font-arabic">فَذَكِّر</span>
           </Link>
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6 rtl:gap-6">
