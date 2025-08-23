@@ -3,25 +3,7 @@
 import React from "react"
 import { useState, useRef, useEffect, useCallback } from "react"
 import { Send, Bot, User, AlertCircle, RefreshCw, Copy, Check, Trash2, MessageSquare } from "lucide-react"
-
-// Enhanced sample questions organized by categories
-const SAMPLE_QUESTIONS = {
-  basics: [
-    "كيف أتوضأ بالطريقة الصحيحة؟",
-    "ما هي أركان الصلاة؟",
-    "كم عدد ركعات كل صلاة؟",
-  ],
-  times: [
-    "متى يبدأ وقت صلاة الظهر؟",
-    "متى ينتهي وقت صلاة العصر؟",
-    "ما هو وقت صلاة الفجر؟",
-  ],
-  details: [
-    "ما هي واجبات الصلاة؟",
-    "ما هي سنن الصلاة؟",
-    "ماذا أفعل إذا نسيت ركعة؟",
-  ]
-}
+import { useI18n } from "@/lib/i18n"
 
 interface ChatMessage {
   id: string
@@ -32,33 +14,39 @@ interface ChatMessage {
 }
 
 // Button Component
-const Button = ({ children, className = "", variant = "default", size = "default", disabled = false, onClick, type = "button", ...props }) => {
-  const baseClasses = "inline-flex items-center justify-center rounded-lg font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+const Button = React.forwardRef(({ 
+  className = "", 
+  variant = "default", 
+  size = "default", 
+  disabled = false,
+  children, 
+  ...props 
+}, ref) => {
+  const baseClasses = "inline-flex items-center justify-center rounded-lg text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
   
   const variants = {
     default: "bg-primary text-primary-foreground hover:bg-primary/90",
     ghost: "hover:bg-accent hover:text-accent-foreground",
-    outline: "border border-input bg-background hover:bg-accent hover:text-accent-foreground"
+    outline: "border border-input hover:bg-accent hover:text-accent-foreground"
   }
   
   const sizes = {
     default: "h-10 px-4 py-2",
-    sm: "h-8 px-3 text-xs",
-    lg: "h-11 px-8"
+    sm: "h-9 rounded-md px-3",
+    lg: "h-11 rounded-md px-8"
   }
   
   return (
     <button
-      type={type}
       className={`${baseClasses} ${variants[variant]} ${sizes[size]} ${className}`}
       disabled={disabled}
-      onClick={onClick}
+      ref={ref}
       {...props}
     >
       {children}
     </button>
   )
-}
+})
 
 // Input Component
 const Input = React.forwardRef(({ className = "", ...props }, ref) => (
@@ -71,7 +59,7 @@ const Input = React.forwardRef(({ className = "", ...props }, ref) => (
 
 // Card Components
 const Card = ({ children, className = "" }) => (
-  <div className={`rounded-xl border bg-card text-card-foreground shadow-sm ${className}`}>
+  <div className={`rounded-xl border border-border bg-card text-card-foreground shadow-sm ${className}`}>
     {children}
   </div>
 )
@@ -102,6 +90,7 @@ const ScrollArea = ({ children, className = "", ref }) => (
 )
 
 export default function ChatPage() {
+  const { t, locale, setLocale, dir } = useI18n()
   const [messages, setMessages] = useState([])
   const [input, setInput] = useState("")
   const [loading, setLoading] = useState(false)
@@ -110,6 +99,7 @@ export default function ChatPage() {
   const [selectedCategory, setSelectedCategory] = useState("basics")
   const scrollAreaRef = useRef(null)
   const inputRef = useRef(null)
+  
 
   // Auto-scroll to bottom when new messages are added
   useEffect(() => {
@@ -118,9 +108,10 @@ export default function ChatPage() {
     }
   }, [messages])
 
-  // Focus input on mount
   useEffect(() => {
-    inputRef.current?.focus()
+    if (inputRef.current) {
+      inputRef.current.focus()
+    }
   }, [])
 
   const handleSubmit = useCallback(async (e) => {
@@ -219,100 +210,48 @@ export default function ChatPage() {
     }
   }
 
+  const quickActionQuestions = {
+    ar: [
+      { key: "wudu", text: "كيف أتوضأ؟" },
+      { key: "pillars", text: "ما هي أركان الصلاة؟" },
+      { key: "times", text: "متى أوقات الصلاة؟" }
+    ],
+    en: [
+      { key: "wudu", text: "How to perform ablution?" },
+      { key: "pillars", text: "What are the pillars of prayer?" },
+      { key: "times", text: "When are prayer times?" }
+    ]
+  }
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100 dark:from-gray-900 dark:to-gray-800">
+    <div className="min-h-screen bg-background" dir={dir}>
       <div className="container mx-auto px-4 py-8 max-w-4xl">
+
+
         {/* Header */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
               <MessageSquare className="w-6 h-6 text-white" />
             </div>
-            <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
-              المساعد الذكي للصلاة
+            <h1 className="text-3xl md:text-4xl font-bold text-green-600">
+              {t("chat.title")}
             </h1>
           </div>
-          <p className="text-gray-600 dark:text-gray-300 text-lg max-w-2xl mx-auto">
-            اسأل أي سؤال حول الصلاة واحصل على إجابة فورية ودقيقة من الذكاء الاصطناعي المتخصص
+          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+            {t("chat.subtitle")}
           </p>
         </div>
 
-        {/* Service Status */}
-        <Card className="mb-6 border-green-200 bg-green-50 dark:bg-green-950/20 dark:border-green-800">
-          <CardHeader className="pb-4">
-            <div className="flex items-center gap-3">
-              <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-              <CardTitle className="text-green-800 dark:text-green-200 text-lg">
-                الخدمة متاحة الآن
-              </CardTitle>
-            </div>
-          </CardHeader>
-          <CardContent>
-            <div className="space-y-2">
-              <p className="text-green-700 dark:text-green-300 font-medium">
-                🤖 المساعد الذكي جاهز للإجابة على جميع أسئلتك حول الصلاة
-              </p>
-              <p className="text-sm text-green-600 dark:text-green-400">
-                💡 يُرجى التحقق من الإجابات مع العلماء المختصين للتأكد من صحتها
-              </p>
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* Sample Questions */}
-        {messages.length === 0 && (
-          <Card className="mb-6 shadow-lg">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2 text-xl">
-                <Bot className="w-5 h-5 text-green-600" />
-                أسئلة مقترحة للبدء
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              {/* Category Selector */}
-              <div className="flex gap-2 mb-4 overflow-x-auto pb-2">
-                {Object.keys(SAMPLE_QUESTIONS).map((category) => (
-                  <Button
-                    key={category}
-                    variant={selectedCategory === category ? "default" : "outline"}
-                    size="sm"
-                    onClick={() => setSelectedCategory(category)}
-                    className={selectedCategory === category ? "bg-green-600 hover:bg-green-700" : ""}
-                  >
-                    {category === "basics" && "الأساسيات"}
-                    {category === "times" && "الأوقات"}
-                    {category === "details" && "التفاصيل"}
-                  </Button>
-                ))}
-              </div>
-              
-              {/* Questions Grid */}
-              <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
-                {SAMPLE_QUESTIONS[selectedCategory].map((question, index) => (
-                  <Button
-                    key={index}
-                    variant="outline"
-                    className="h-auto p-4 text-right justify-start whitespace-normal leading-relaxed hover:bg-green-50 dark:hover:bg-green-950/20 transition-all duration-200"
-                    onClick={() => handleSampleQuestion(question)}
-                    disabled={loading}
-                  >
-                    <span className="text-sm">{question}</span>
-                  </Button>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
-        )}
-
         {/* Chat Interface */}
-        <Card className="shadow-xl border-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm">
+        <Card className="shadow-xl border-border bg-card/80 backdrop-blur-sm">
           <CardHeader className="flex-row items-center justify-between space-y-0 pb-4">
             <CardTitle className="flex items-center gap-3 text-xl">
               <Bot className="w-6 h-6 text-green-600" />
-              المحادثة
+              {t("chat.conversation")}
               {messages.length > 0 && (
-                <span className="text-sm text-gray-500 font-normal">
-                  ({messages.length} رسالة)
+                <span className="text-sm text-muted-foreground font-normal">
+                  ({messages.length} {t("chat.messages")})
                 </span>
               )}
             </CardTitle>
@@ -325,7 +264,7 @@ export default function ChatPage() {
                 className="text-red-600 hover:text-red-700 hover:bg-red-50"
               >
                 <Trash2 className="w-4 h-4 ml-1" />
-                مسح المحادثة
+                {t("chat.clear")}
               </Button>
             )}
           </CardHeader>
@@ -335,13 +274,10 @@ export default function ChatPage() {
             <ScrollArea className="h-[500px] md:h-[600px] px-6" ref={scrollAreaRef}>
               <div className="space-y-6 py-4">
                 {messages.length === 0 && (
-                  <div className="text-center text-gray-500 py-12">
-                    <Bot className="w-16 h-16 mx-auto mb-4 text-green-600 opacity-50" />
-                    <h3 className="text-xl font-medium mb-2">مرحباً بك! 👋</h3>
-                    <p className="text-lg">كيف يمكنني مساعدتك في تعلم الصلاة اليوم؟</p>
-                    <p className="text-sm mt-3 text-gray-400">
-                      اختر سؤالاً من الأعلى أو اكتب سؤالك المخصص
-                    </p>
+                  <div className="text-center text-muted-foreground py-12">
+                    <Bot className="w-16 h-16 mx-auto mb-4 text-green-600 opacity-70" />
+                    <h3 className="text-xl font-medium mb-2">{t("chat.greeting")}</h3>
+                    <p className="text-lg">{t("chat.welcome")}</p>
                   </div>
                 )}
 
@@ -359,8 +295,8 @@ export default function ChatPage() {
                       <div
                         className={`w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 shadow-md ${
                           message.type === "user" 
-                            ? "bg-gradient-to-r from-blue-500 to-blue-600 text-white" 
-                            : "bg-gradient-to-r from-green-500 to-green-600 text-white"
+                            ? "bg-blue-600 text-white" 
+                            : "bg-green-600 text-white"
                         }`}
                       >
                         {message.type === "user" ? 
@@ -373,21 +309,21 @@ export default function ChatPage() {
                       <div
                         className={`rounded-2xl p-4 shadow-sm relative group ${
                           message.type === "user"
-                            ? "bg-gradient-to-r from-blue-500 to-blue-600 text-white"
-                            : "bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+                            ? "bg-blue-600 text-white"
+                            : "bg-muted text-foreground"
                         }`}
                       >
                         {/* Copy Button for Bot Messages */}
                         {message.type === "bot" && message.content.length > 50 && (
                           <button
                             onClick={() => copyToClipboard(message.content, message.id)}
-                            className="absolute top-3 left-3 opacity-0 group-hover:opacity-100 transition-opacity p-1.5 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700"
-                            title="نسخ الإجابة"
+                            className="absolute top-3 left-3 opacity-0 group-hover:opacity-100 transition-opacity p-1.5 rounded-lg hover:bg-accent"
+                            title={t("chat.copy")}
                           >
                             {copiedId === message.id ? (
                               <Check className="w-4 h-4 text-green-600" />
                             ) : (
-                              <Copy className="w-4 h-4 text-gray-600" />
+                              <Copy className="w-4 h-4 text-muted-foreground" />
                             )}
                           </button>
                         )}
@@ -404,14 +340,18 @@ export default function ChatPage() {
                         </div>
 
                         {/* Source and Timestamp */}
-                        <div className="mt-3 pt-2 border-t border-white/20 dark:border-gray-600/30">
+                        <div className={`mt-3 pt-2 border-t ${
+                          message.type === "user" 
+                            ? "border-white/20" 
+                            : "border-border"
+                        }`}>
                           {message.source && (
                             <p className="text-xs opacity-75 font-medium mb-1">
-                              📚 المصدر: {message.source}
+                              📚 {t("chat.source")}: {message.source}
                             </p>
                           )}
                           <p className="text-xs opacity-60">
-                            🕐 {message.timestamp.toLocaleTimeString('ar-SA', {
+                            🕐 {message.timestamp.toLocaleTimeString(locale === 'ar' ? 'ar-SA' : 'en-US', {
                               hour: '2-digit',
                               minute: '2-digit'
                             })}
@@ -426,17 +366,17 @@ export default function ChatPage() {
                 {loading && (
                   <div className="flex justify-start">
                     <div className="flex items-start gap-3 max-w-[85%]">
-                      <div className="w-10 h-10 rounded-full bg-gradient-to-r from-green-500 to-green-600 text-white flex items-center justify-center shadow-md">
+                      <div className="w-10 h-10 rounded-full bg-green-600 text-white flex items-center justify-center shadow-md">
                         <Bot className="w-5 h-5" />
                       </div>
-                      <div className="bg-gray-100 dark:bg-gray-800 rounded-2xl p-4 shadow-sm">
+                      <div className="bg-muted rounded-2xl p-4 shadow-sm">
                         <div className="flex items-center gap-2">
                           <div className="flex gap-1">
-                            <div className="w-2 h-2 bg-green-500 rounded-full animate-bounce"></div>
-                            <div className="w-2 h-2 bg-green-500 rounded-full animate-bounce" style={{ animationDelay: "0.1s" }}></div>
-                            <div className="w-2 h-2 bg-green-500 rounded-full animate-bounce" style={{ animationDelay: "0.2s" }}></div>
+                            <div className="w-2 h-2 bg-green-600 rounded-full animate-bounce"></div>
+                            <div className="w-2 h-2 bg-green-600 rounded-full animate-bounce" style={{ animationDelay: "0.1s" }}></div>
+                            <div className="w-2 h-2 bg-green-600 rounded-full animate-bounce" style={{ animationDelay: "0.2s" }}></div>
                           </div>
-                          <span className="text-sm text-gray-600 dark:text-gray-300">جاري الكتابة...</span>
+                          <span className="text-sm text-muted-foreground">{t("chat.typing")}</span>
                         </div>
                       </div>
                     </div>
@@ -448,11 +388,11 @@ export default function ChatPage() {
             {/* Error Display */}
             {error && (
               <div className="px-6 pb-4">
-                <div className="flex items-start gap-3 p-4 bg-red-50 dark:bg-red-950/20 border border-red-200 dark:border-red-800 rounded-xl">
+                <div className="flex items-start gap-3 p-4 bg-red-50 border border-red-200 rounded-xl">
                   <AlertCircle className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
                   <div className="flex-1">
-                    <p className="text-sm text-red-700 dark:text-red-300 font-medium mb-2">حدث خطأ:</p>
-                    <p className="text-sm text-red-600 dark:text-red-400">{error}</p>
+                    <p className="text-sm text-red-700 font-medium mb-2">{t("chat.error")}</p>
+                    <p className="text-sm text-red-600">{error}</p>
                   </div>
                   <Button 
                     variant="ghost" 
@@ -462,82 +402,69 @@ export default function ChatPage() {
                     className="text-red-600 hover:text-red-700 hover:bg-red-100"
                   >
                     <RefreshCw className="w-4 h-4 ml-1" />
-                    إعادة المحاولة
+                    {t("chat.retry")}
                   </Button>
                 </div>
               </div>
             )}
 
             {/* Input Area */}
-            <div className="border-t bg-gray-50 dark:bg-gray-800/50 p-6 rounded-b-xl">
+            <div className="border-t border-border bg-muted/50 p-6 rounded-b-xl">
               <form onSubmit={handleSubmit} className="flex gap-3">
                 <div className="flex-1">
                   <Input
-                    ref={inputRef}
                     value={input}
                     onChange={(e) => setInput(e.target.value)}
-                    placeholder="اكتب سؤالك هنا... (مثل: كيف أتوضأ؟ أو ما هي أركان الصلاة؟)"
+                    placeholder={t("chat.placeholder")}
                     disabled={loading}
-                    className="text-base py-3 px-4 rounded-xl border-2 border-gray-200 dark:border-gray-600 focus:border-green-500 dark:focus:border-green-400 transition-colors"
+                    className="text-base py-3 px-4 rounded-xl border-2 border-input focus:border-green-600 transition-colors"
                     maxLength={1000}
-                    dir="rtl"
+                    dir={dir}
                   />
                   {input.length > 800 && (
-                    <p className="text-xs text-gray-500 mt-2 text-right">
-                      متبقي {1000 - input.length} حرف
+                    <p className="text-xs text-muted-foreground mt-2" style={{ textAlign: dir === 'rtl' ? 'right' : 'left' }}>
+                      {t("chat.remaining")} {1000 - input.length} {t("chat.characters")}
                     </p>
                   )}
                 </div>
-                <Button 
+                <button 
                   type="submit" 
                   disabled={!input.trim() || loading || input.length > 1000} 
-                  className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 px-6 py-3 rounded-xl shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
-                  size="lg"
+                  className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 h-11 rounded-xl shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 flex items-center justify-center"
                 >
                   {loading ? (
                     <RefreshCw className="w-5 h-5 animate-spin" />
                   ) : (
                     <Send className="w-5 h-5" />
                   )}
-                </Button>
+                </button>
               </form>
               
               {/* Quick Actions */}
               <div className="mt-4 flex flex-wrap gap-2 justify-center">
-                <span className="text-xs text-gray-500">إجراءات سريعة:</span>
-                <button
-                  onClick={() => handleSampleQuestion("كيف أتوضأ؟")}
-                  className="text-xs px-2 py-1 bg-gray-200 dark:bg-gray-700 rounded-md hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
-                  disabled={loading}
-                >
-                  الوضوء
-                </button>
-                <button
-                  onClick={() => handleSampleQuestion("ما هي أركان الصلاة؟")}
-                  className="text-xs px-2 py-1 bg-gray-200 dark:bg-gray-700 rounded-md hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
-                  disabled={loading}
-                >
-                  أركان الصلاة
-                </button>
-                <button
-                  onClick={() => handleSampleQuestion("متى أوقات الصلاة؟")}
-                  className="text-xs px-2 py-1 bg-gray-200 dark:bg-gray-700 rounded-md hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
-                  disabled={loading}
-                >
-                  أوقات الصلاة
-                </button>
+                <span className="text-xs text-muted-foreground">{t("chat.quickActions")}</span>
+                {quickActionQuestions[locale].map((action) => (
+                  <button
+                    key={action.key}
+                    onClick={() => handleSampleQuestion(action.text)}
+                    className="text-xs px-2 py-1 bg-green-100 text-green-700 rounded-md hover:bg-green-200 transition-colors"
+                    disabled={loading}
+                  >
+                    {t(`chat.${action.key}`)}
+                  </button>
+                ))}
               </div>
             </div>
           </CardContent>
         </Card>
 
         {/* Footer */}
-        <div className="mt-8 text-center text-sm text-gray-500 dark:text-gray-400">
+        <div className="mt-8 text-center text-sm text-muted-foreground">
           <p className="mb-2">
-            🤲 نسأل الله أن ينفعنا وإياكم بما تعلمنا
+            {t("footer.blessing")}
           </p>
           <p>
-            💡 هذا المساعد يقدم معلومات عامة. يُرجى مراجعة العلماء المختصين للفتاوى الخاصة
+            {t("footer.disclaimer")}
           </p>
         </div>
       </div>
