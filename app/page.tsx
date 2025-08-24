@@ -7,33 +7,66 @@ import { Badge } from "@/components/ui/badge"
 import { ArrowLeft, Clock, BookOpen, MessageCircle } from "lucide-react"
 import { ArabicLogoAnimation } from "@/components/ui/arabic-logo-animation"
 import { useState } from "react"
+import { useI18n } from "@/lib/i18n"
 
 export default function HomePage() {
+  const { t, locale } = useI18n()
   const [showAnimation, setShowAnimation] = useState(true)
 
   const prayers = [
-    { name: "الفجر", nameEn: "Fajr", time: "قبل الشروق", href: "/learn/fajr" },
-    { name: "الظهر", nameEn: "Dhuhr", time: "بعد الزوال", href: "/learn/dhuhr" },
-    { name: "العصر", nameEn: "Asr", time: "بعد الظهر", href: "/learn/asr" },
-    { name: "المغرب", nameEn: "Maghrib", time: "عند الغروب", href: "/learn/maghrib" },
-    { name: "العشاء", nameEn: "Isha", time: "بعد المغرب", href: "/learn/isha" },
+    { 
+      name: locale === "ar" ? "الفجر" : "Fajr", 
+      nameEn: "Fajr", 
+      time: locale === "ar" ? "قبل الشروق" : "Before sunrise", 
+      href: "/learn/fajr" 
+    },
+    { 
+      name: locale === "ar" ? "الظهر" : "Dhuhr", 
+      nameEn: "Dhuhr", 
+      time: locale === "ar" ? "بعد الزوال" : "After midday", 
+      href: "/learn/dhuhr" 
+    },
+    { 
+      name: locale === "ar" ? "العصر" : "Asr", 
+      nameEn: "Asr", 
+      time: locale === "ar" ? "بعد الظهر" : "Afternoon", 
+      href: "/learn/asr" 
+    },
+    { 
+      name: locale === "ar" ? "المغرب" : "Maghrib", 
+      nameEn: "Maghrib", 
+      time: locale === "ar" ? "عند الغروب" : "At sunset", 
+      href: "/learn/maghrib" 
+    },
+    { 
+      name: locale === "ar" ? "العشاء" : "Isha", 
+      nameEn: "Isha", 
+      time: locale === "ar" ? "بعد المغرب" : "After Maghrib", 
+      href: "/learn/isha" 
+    },
   ]
 
   const features = [
     {
       icon: <BookOpen className="h-6 w-6" />,
-      title: "أدلة شرعية",
-      description: "كل خطوة مدعومة بآيات قرآنية وأحاديث صحيحة",
+      title: locale === "ar" ? "أدلة شرعية" : "Islamic Evidence",
+      description: locale === "ar" 
+        ? "كل خطوة مدعومة بآيات قرآنية وأحاديث صحيحة"
+        : "Every step supported by Quranic verses and authentic hadiths",
     },
     {
       icon: <Clock className="h-6 w-6" />,
-      title: "تعلم تدريجي",
-      description: "خطوات مبسطة مع رسوم توضيحية متحركة",
+      title: locale === "ar" ? "تعلم تدريجي" : "Gradual Learning",
+      description: locale === "ar"
+        ? "خطوات مبسطة مع رسوم توضيحية متحركة"
+        : "Simplified steps with animated illustrations",
     },
     {
       icon: <MessageCircle className="h-6 w-6" />,
-      title: "مساعد ذكي",
-      description: "اسأل أي سؤال واحصل على إجابة فورية",
+      title: locale === "ar" ? "مساعد ذكي" : "Smart Assistant",
+      description: locale === "ar"
+        ? "اسأل أي سؤال واحصل على إجابة فورية"
+        : "Ask any question and get instant answers",
     },
   ]
 
@@ -55,25 +88,37 @@ export default function HomePage() {
       <section className="text-center py-16 space-y-8">
         <div className="space-y-4">
           <h1 className="text-4xl md:text-6xl font-bold text-green-600">فَذَكِّر</h1>
-          <h2 className="text-2xl md:text-3xl font-semibold">تعلّم الصلاة خطوة بخطوة</h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">شرح مبسّط مع أدلته من القرآن والسنّة</p>
+          <h2 className="text-2xl md:text-3xl font-semibold">
+            {locale === "ar" ? "تعلّم الصلاة خطوة بخطوة" : "Learn Prayer Step by Step"}
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            {locale === "ar" 
+              ? "شرح مبسّط مع أدلته من القرآن والسنّة" 
+              : "Simple explanation with evidence from Quran and Sunnah"
+            }
+          </p>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button asChild size="lg" className="bg-green-600 hover:bg-green-700">
             <Link href="/learn/fajr">
-              ابدأ الآن
+              {locale === "ar" ? "ابدأ الآن" : "Start Now"}
               <ArrowLeft className="mr-2 h-4 w-4 rtl:rotate-180" />
             </Link>
           </Button>
           <Button asChild variant="outline" size="lg">
-            <Link href="/content">تصفح المحتوى</Link>
+            <Link href="/content">
+              {locale === "ar" ? "تصفح المحتوى" : "Browse Content"}
+            </Link>
           </Button>
         </div>
 
         <div className="bg-green-50 dark:bg-green-950/20 rounded-2xl p-6 max-w-3xl mx-auto">
           <p className="text-sm text-green-800 dark:text-green-200">
-            المحتوى للتعليم العام، وللفتوى يُرجى الرجوع لأهل العلم الثقات.
+            {locale === "ar"
+              ? "المحتوى للتعليم العام، وللفتوى يُرجى الرجوع لأهل العلم الثقات."
+              : "Content is for general education. For religious rulings, please consult qualified scholars."
+            }
           </p>
         </div>
       </section>
@@ -100,8 +145,15 @@ export default function HomePage() {
       {/* Prayer Cards */}
       <section className="py-16">
         <div className="text-center mb-12">
-          <h3 className="text-3xl font-bold mb-4">الصلوات الخمس</h3>
-          <p className="text-muted-foreground">تعلم كل صلاة بالتفصيل مع الأدلة الشرعية</p>
+          <h3 className="text-3xl font-bold mb-4">
+            {locale === "ar" ? "الصلوات الخمس" : "The Five Daily Prayers"}
+          </h3>
+          <p className="text-muted-foreground">
+            {locale === "ar" 
+              ? "تعلم كل صلاة بالتفصيل مع الأدلة الشرعية"
+              : "Learn each prayer in detail with Islamic evidence"
+            }
+          </p>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
@@ -113,7 +165,7 @@ export default function HomePage() {
                     {index + 1}
                   </div>
                   <CardTitle className="text-xl">{prayer.name}</CardTitle>
-                  <CardDescription>{prayer.nameEn}</CardDescription>
+                  {locale === "en" && <CardDescription>{prayer.nameEn}</CardDescription>}
                 </CardHeader>
                 <CardContent className="text-center">
                   <Badge variant="secondary" className="text-xs">
@@ -132,8 +184,15 @@ export default function HomePage() {
         <div className="grid md:grid-cols-2 gap-8">
           <Card className="bg-gradient-to-br from-green-50 to-green-100 dark:from-green-950/20 dark:to-green-900/20 border-green-200 dark:border-green-800">
             <CardHeader>
-              <CardTitle className="text-green-800 dark:text-green-200">الأسئلة الشائعة</CardTitle>
-              <CardDescription>إجابات على أكثر الأسئلة شيوعاً حول الصلاة</CardDescription>
+              <CardTitle className="text-green-800 dark:text-green-200">
+                {locale === "ar" ? "الأسئلة الشائعة" : "Frequently Asked Questions"}
+              </CardTitle>
+              <CardDescription>
+                {locale === "ar"
+                  ? "إجابات على أكثر الأسئلة شيوعاً حول الصلاة"
+                  : "Answers to the most common questions about prayer"
+                }
+              </CardDescription>
             </CardHeader>
             <CardContent>
               <Button
@@ -142,7 +201,7 @@ export default function HomePage() {
                 className="border-green-300 text-green-700 hover:bg-green-100 bg-transparent"
               >
                 <Link href="/faq">
-                  تصفح الأسئلة
+                  {locale === "ar" ? "تصفح الأسئلة" : "Browse Questions"}
                   <ArrowLeft className="mr-2 h-4 w-4 rtl:rotate-180" />
                 </Link>
               </Button>
@@ -151,8 +210,15 @@ export default function HomePage() {
 
           <Card className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-950/20 dark:to-blue-900/20 border-blue-200 dark:border-blue-800">
             <CardHeader>
-              <CardTitle className="text-blue-800 dark:text-blue-200">المساعد الذكي</CardTitle>
-              <CardDescription>اسأل أي سؤال واحصل على إجابة فورية</CardDescription>
+              <CardTitle className="text-blue-800 dark:text-blue-200">
+                {locale === "ar" ? "المساعد الذكي" : "Smart Assistant"}
+              </CardTitle>
+              <CardDescription>
+                {locale === "ar"
+                  ? "اسأل أي سؤال واحصل على إجابة فورية"
+                  : "Ask any question and get instant answers"
+                }
+              </CardDescription>
             </CardHeader>
             <CardContent>
               <Button
@@ -161,7 +227,7 @@ export default function HomePage() {
                 className="border-blue-300 text-blue-700 hover:bg-blue-100 bg-transparent"
               >
                 <Link href="/chat">
-                  ابدأ المحادثة
+                  {locale === "ar" ? "ابدأ المحادثة" : "Start Chat"}
                   <MessageCircle className="mr-2 h-4 w-4" />
                 </Link>
               </Button>

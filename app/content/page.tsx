@@ -67,14 +67,25 @@ export default function ContentPage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="text-center mb-8">
-        <h1 className="text-3xl font-bold mb-4">محتوى الصلاة</h1>
-        <p className="text-muted-foreground mb-6">تعرف على أركان وواجبات وسنن وشروط الصلاة</p>
+        <h1 className="text-3xl font-bold mb-4">
+          {locale === "ar" ? "محتوى الصلاة" : "Prayer Content"}
+        </h1>
+        <p className="text-muted-foreground mb-6">
+          {locale === "ar" 
+            ? "تعرف على أركان وواجبات وسنن وشروط الصلاة"
+            : "Learn about the pillars, obligations, recommendations, and conditions of prayer"
+          }
+        </p>
 
         {/* Search */}
         <div className="relative max-w-md mx-auto">
           <Search className="absolute left-3 rtl:left-auto rtl:right-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
           <Input
-            placeholder="البحث في المحتوى..."
+            placeholder={
+              locale === "ar" 
+                ? "البحث في المحتوى..."
+                : "Search content..."
+            }
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             className="pl-10 rtl:pl-4 rtl:pr-10"

@@ -53,20 +53,27 @@ export default function FaqPage() {
   return (
     <div className="container mx-auto px-4 py-8 max-w-4xl">
       <div className="text-center mb-8">
-        <h1 className="text-3xl font-bold mb-4">الأسئلة الشائعة</h1>
-        <p className="text-muted-foreground mb-6">إجابات على أكثر الأسئلة شيوعاً حول الصلاة</p>
+      <h1 className="text-3xl font-bold mb-4">
+        {locale === "ar" ? "الأسئلة الشائعة" : "Frequently Asked Questions"}
+      </h1>
+      <p className="text-muted-foreground mb-6">
+        {locale === "ar" 
+          ? "إجابات على أكثر الأسئلة شيوعاً حول الصلاة"
+          : "Answers to the most frequently asked questions about prayer"
+        }
+      </p>
 
-        {/* Search */}
-        <div className="relative max-w-md mx-auto">
-          <Search className="absolute left-3 rtl:left-auto rtl:right-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
-          <Input
-            placeholder={t("faq.search")}
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="pl-10 rtl:pl-4 rtl:pr-10"
-          />
-        </div>
+      {/* Search */}
+      <div className="relative max-w-md mx-auto">
+        <Search className="absolute left-3 rtl:left-auto rtl:right-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
+        <Input
+          placeholder={t("faq.search")}
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="pl-10 rtl:pl-4 rtl:pr-10"
+        />
       </div>
+    </div>
 
       {filteredItems.length > 0 ? (
         <Accordion type="single" collapsible className="w-full">
@@ -83,7 +90,9 @@ export default function FaqPage() {
         </Accordion>
       ) : (
         <div className="text-center py-8">
-          <p className="text-muted-foreground">لا توجد نتائج للبحث</p>
+          <p className="text-muted-foreground">
+            {locale === "ar" ? "لا توجد نتائج للبحث" : "No search results found"}
+          </p>
         </div>
       )}
     </div>
